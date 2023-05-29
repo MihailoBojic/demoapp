@@ -1,5 +1,6 @@
 #search-container {
   margin-top: 30px;
+  margin-left: 8%;
 }
 
 #explore {
@@ -94,4 +95,6 @@ margin-right: 150px;
   white-space: nowrap;
   margin-right: 50px;
 }
-
+.card{
+  margin-left: 8%;
+}

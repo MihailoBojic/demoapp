@@ -6,21 +6,27 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ExploreComponent } from './explore/explore.component';
 import { RouterModule } from '@angular/router';
+import { PopularPlacesComponent } from './popular-places/popular-places.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ExploreComponent
+    ExploreComponent,
+    PopularPlacesComponent
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot([]),
+    HttpClientModule
+
   ],
-  providers: [],
+  providers: [HttpClient],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

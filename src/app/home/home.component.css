@@ -7,7 +7,7 @@
   transform: matrix(-1, 0, 0, 1, 0, 0);
   background-position: 68%;
   background-position-y: 80%;
-  left: 300px;
+  margin-left: 8%;
   background-size: 500%;
 }
 

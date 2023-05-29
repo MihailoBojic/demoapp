@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row" id="tekst-row">
+    <p class="tekst" style="display: inline;">Popular places</p>
+    <p style="display: inline;"><a href="#">View</a></p>
+  </div>
+</div>
+<br>
+
+<div class="card mb-3" style="max-width: 540px;" *ngFor="let data of popularData">
+  <div class="row no-gutters">
+    <div class="col-4">
+      <img [src]="data.slika" class="card-img" alt="...">
+    </div>
+    <div class="col-5">
+      <div class="card-body">
+        <p class="card-text">{{data.broj}}. Activities <i class="bi bi-star-fill"></i> 4,5</p>
+        <p class="card-text">{{data.place}}</p>
+      </div>
+    </div>
+    <div class="col-1">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
