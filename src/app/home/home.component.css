@@ -1,0 +1,88 @@
+
+.background-image {
+  background-image: url("../../assets/home.pick.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  background-position: 68%;
+  background-position-y: 80%;
+  left: 300px;
+  background-size: 500%;
+}
+
+.logo{
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  position: absolute;
+width: 196px;
+height: 92px;
+left: calc(50% - 196px/2 + 0.5px);
+top: 139px;
+}
+
+#title {
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  position: absolute;
+width: 300px;
+height: 88px;
+left: calc(50% - 300px/2 - 0.5px);
+top: 519px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 33px;
+line-height: 44px;
+/* or 133% */
+
+text-align: center;
+
+/* #FFFFFF */
+
+color: white
+}
+
+.dugme {
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  position: absolute;
+width: 280px;
+height: 56px;
+left: calc(50% - 280px/2 + 0.5px);
+top: 684px;
+
+/* #3484FF */
+
+background: #3484FF;
+border-radius: 100px;
+}
+
+label {
+  color: #FFFFFF;
+}
+
+#subtitle {
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+position: absolute;
+width: 253px;
+height: 24px;
+left: calc(50% - 253px/2);
+top: 620px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+/* #FFFFFF */
+
+color: #FFFFFF;
+}
+
+
+
+
+
