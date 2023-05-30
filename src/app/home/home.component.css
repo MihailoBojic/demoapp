@@ -7,7 +7,6 @@
   transform: matrix(-1, 0, 0, 1, 0, 0);
   background-position: 68%;
   background-position-y: 80%;
-  margin-left: 8%;
   background-size: 500%;
 }
 
@@ -17,7 +16,7 @@
 width: 196px;
 height: 92px;
 left: calc(50% - 196px/2 + 0.5px);
-top: 139px;
+margin-top: 109px;
 }
 
 #title {
@@ -26,7 +25,7 @@ top: 139px;
 width: 300px;
 height: 88px;
 left: calc(50% - 300px/2 - 0.5px);
-top: 519px;
+margin-top: 579px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -48,7 +47,7 @@ color: white
 width: 280px;
 height: 56px;
 left: calc(50% - 280px/2 + 0.5px);
-top: 684px;
+margin-top: 764px;
 
 /* #3484FF */
 
@@ -66,7 +65,7 @@ position: absolute;
 width: 253px;
 height: 24px;
 left: calc(50% - 253px/2);
-top: 620px;
+top: 690px;
 
 font-family: 'Poppins';
 font-style: normal;
