@@ -8,16 +8,12 @@ import { ExploreComponent } from './explore/explore.component';
 import { RouterModule } from '@angular/router';
 import { PopularPlacesComponent } from './popular-places/popular-places.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-<<<<<<< HEAD
 import { ActivitiesComponent } from './activities/activities.component';
-import { FormsModule } from '@angular/forms';
-=======
-
-import { ActivitiesComponent } from './activities/activities.component';
-
 import { FormsModule } from '@angular/forms';
 import { CreateComponent } from './create/create.component';
->>>>>>> 984653500e603ce7d45d752eed213ce0431f7a84
+import { TravelComponent } from './travel/travel.component';
+import { InterestsComponent } from './interests/interests.component';
+import { StarratingComponent } from './starrating/starrating.component';
 
 
 @NgModule({
@@ -26,12 +22,11 @@ import { CreateComponent } from './create/create.component';
     HomeComponent,
     ExploreComponent,
     PopularPlacesComponent,
-<<<<<<< HEAD
-    ActivitiesComponent
-=======
     ActivitiesComponent,
-    CreateComponent
->>>>>>> 984653500e603ce7d45d752eed213ce0431f7a84
+    CreateComponent,
+    TravelComponent,
+    InterestsComponent,
+    StarratingComponent
 
   ],
   imports: [

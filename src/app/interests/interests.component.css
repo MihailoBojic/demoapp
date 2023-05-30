@@ -1,0 +1,30 @@
+.title {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+text-align: center;
+color: #1F2933;
+}
+
+
+.list-group-item{
+  align-items: center;
+  display: flex;
+  display: inline;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: 'Poppins';
+font-style: normal;
+color: #1F2933;
+}
+.radio{
+margin-left: 80%;
+
+}
+
+

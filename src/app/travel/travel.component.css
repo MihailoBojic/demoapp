@@ -1,0 +1,70 @@
+.title {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+text-align: center;
+
+/* #1F2933 */
+
+color: #1F2933;
+}
+
+.btn-slider{
+  background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+margin-right: 10px;
+width: 72px;
+height: 72px;
+}
+
+
+.button-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+#row1{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  background-color:  #FFFFFF;;
+
+}
+.btn1 {
+  width: 39px;
+height: 39px;
+background: #FFFFFF;
+box-shadow: 0px 24px 48px rgba(205, 212, 221, 0.12);
+border-radius: 50px;
+/* margin-right: 60px; */
+color: black;
+font-size: 20px;
+border: none;
+}
+
+.btn2{
+  /* margin-left: 50px; */
+  width: 39px;
+height: 39px;
+background: #3484FF;
+box-shadow: 0px 24px 48px rgba(49, 79, 124, 0.12);
+border-radius: 50px;
+color: #FFFFFF;
+font-size: 20px;
+text-align: center;
+}
+#btn-container{
+  max-width: 70%;
+  background: #FFFFFF;
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+}
