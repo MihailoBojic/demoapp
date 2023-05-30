@@ -8,8 +8,16 @@ import { ExploreComponent } from './explore/explore.component';
 import { RouterModule } from '@angular/router';
 import { PopularPlacesComponent } from './popular-places/popular-places.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+<<<<<<< HEAD
 import { ActivitiesComponent } from './activities/activities.component';
 import { FormsModule } from '@angular/forms';
+=======
+
+import { ActivitiesComponent } from './activities/activities.component';
+
+import { FormsModule } from '@angular/forms';
+import { CreateComponent } from './create/create.component';
+>>>>>>> 984653500e603ce7d45d752eed213ce0431f7a84
 
 
 @NgModule({
@@ -18,7 +26,12 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     ExploreComponent,
     PopularPlacesComponent,
+<<<<<<< HEAD
     ActivitiesComponent
+=======
+    ActivitiesComponent,
+    CreateComponent
+>>>>>>> 984653500e603ce7d45d752eed213ce0431f7a84
 
   ],
   imports: [
