@@ -1,0 +1,13 @@
+.tekst {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: #1F2933;
+margin-right: 150px;
+}
+#tekst-row {
+  display: inline;
+  margin-bottom: 20px;
+}
