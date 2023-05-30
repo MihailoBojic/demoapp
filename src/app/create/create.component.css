@@ -1,0 +1,51 @@
+.my-btn{
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: none;
+}
+.back{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+}
+h1{
+  display: flex;
+  justify-content: center;
+}
+.input{
+  margin-left: 8%;
+  margin-top: 7%;
+  width: 80%;
+  border-radius: 30px;
+  height: 40px;
+}
+.h-2{
+  margin-top: 8%;
+}
+.calendar{
+  width: 70%;
+  height: 10%;
+  margin-left: 12%;
+
+}
+.mat-calendar-header{
+  background-color: blue ;
+}
+.h-1{
+  margin-top: 70%;
+  display: flex;
+  justify-content: center;
+}
+.mat-slider {
+  margin-right: 15%;
+  margin-left: 15%;
+  width: 70%;
+}
+.end{
+  display: flex;
+  justify-content: center;
+
+}

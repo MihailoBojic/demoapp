@@ -4,13 +4,15 @@ import { HomeComponent } from './home/home.component';
 import { ExploreComponent } from './explore/explore.component';
 import { PopularPlacesComponent } from './popular-places/popular-places.component';
 import { ActivitiesComponent } from './activities/activities.component';
+import { CreateComponent } from './create/create.component';
 
 const routes: Routes = [
   {path : '', component: HomeComponent},
   {path: 'home', component: HomeComponent},
   {path: 'explore', component: ExploreComponent},
   {path: 'popular_places', component: PopularPlacesComponent},
-  {path: 'activities' , component: ActivitiesComponent}
+  {path: 'activities' , component: ActivitiesComponent},
+  {path: 'create', component: CreateComponent}
 ];
 
 @NgModule({
