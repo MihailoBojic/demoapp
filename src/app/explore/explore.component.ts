@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import Swiper from 'swiper';
 
 @Component({
@@ -9,7 +10,7 @@ import Swiper from 'swiper';
 })
 export class ExploreComponent implements OnInit {
   public swiper: any;
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private router: Router) {}
 
   public ngOnInit() {
     this.swiper = new Swiper('.swiper', {
@@ -72,5 +73,7 @@ fetchData() {
           }
   )
 }
-
+onCreateTour(){
+  this.router.navigate(['/create'])
+}
 }

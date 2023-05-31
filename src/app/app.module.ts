@@ -23,6 +23,9 @@ import { TravelComponent } from './travel/travel.component';
 import { InterestsComponent } from './interests/interests.component';
 import { StarratingComponent } from './starrating/starrating.component';
 import { BudgetComponent } from './budget/budget.component';
+import { FeaturedActivitiesComponent } from './featured-activities/featured-activities.component';
+import { MatButtonModule } from '@angular/material/button';
+import { MatMenuModule} from '@angular/material/menu';
 
 
 
@@ -38,7 +41,8 @@ import { BudgetComponent } from './budget/budget.component';
     InterestsComponent,
     StarratingComponent,
     CreateComponent,
-    BudgetComponent
+    BudgetComponent,
+    FeaturedActivitiesComponent
 
   ],
   imports: [
@@ -52,7 +56,8 @@ import { BudgetComponent } from './budget/budget.component';
     MatDatepickerModule,
     MatNativeDateModule,
     MatSliderModule,
-
+    MatButtonModule,
+    MatMenuModule
  ],
  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [HttpClient],
