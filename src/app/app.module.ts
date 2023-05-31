@@ -8,12 +8,23 @@ import { ExploreComponent } from './explore/explore.component';
 import { RouterModule } from '@angular/router';
 import { PopularPlacesComponent } from './popular-places/popular-places.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+
 import { ActivitiesComponent } from './activities/activities.component';
+
 import { FormsModule } from '@angular/forms';
 import { CreateComponent } from './create/create.component';
+import { MatCardModule } from '@angular/material/card';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
+
+import { MatSliderModule } from '@angular/material/slider';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { TravelComponent } from './travel/travel.component';
 import { InterestsComponent } from './interests/interests.component';
 import { StarratingComponent } from './starrating/starrating.component';
+import { BudgetComponent } from './budget/budget.component';
+
+
 
 
 @NgModule({
@@ -23,10 +34,11 @@ import { StarratingComponent } from './starrating/starrating.component';
     ExploreComponent,
     PopularPlacesComponent,
     ActivitiesComponent,
-    CreateComponent,
     TravelComponent,
     InterestsComponent,
-    StarratingComponent
+    StarratingComponent,
+    CreateComponent,
+    BudgetComponent
 
   ],
   imports: [
@@ -35,9 +47,14 @@ import { StarratingComponent } from './starrating/starrating.component';
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot([]),
-    HttpClientModule
+    HttpClientModule,
+    MatCardModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatSliderModule,
 
-  ],
+ ],
+ schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [HttpClient],
   bootstrap: [AppComponent]
 })

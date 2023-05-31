@@ -1,3 +1,45 @@
+<div class="back">
+  <button class="my-btn"><i class="bi bi-arrow-left"></i></button> <h2> Create tour</h2> <button class="my-btn"><i class="bi bi-info-circle"></i></button>
+</div>
+
+<h1>Your Travel Destination 🚀</h1>
+<input type="text" placeholder="search" class="input">
+
+<h1 class="h-2"> Choose date</h1>
+<div class="calendar">
+<mat-card class="demo-inline-calendar-card">
+  <mat-calendar [(selected)]="selected"></mat-calendar>
+</mat-card>
+<!-- <p>Selected date: {{selected}}</p> -->
+</div>
+
+<h1 class="h-1"> Time </h1>
+<div class="container">
+<mat-slider
+  showTickMarks="true"
+  min="7"
+  max="18"
+  step="1"
+  class="mat-slider"
+  color="blue"
+  discrete="true">
+  <input matSliderStartThumb [(ngModel)]="startValue">
+  <input matSliderEndThumb [(ngModel)]="endValue">
+</mat-slider>
+  <h2 class="end"> <i class="bi bi-clock"></i>{{startValue}}:00- {{endValue}}:00</h2>
+</div>
+
 <app-travel></app-travel>
 <app-interests></app-interests>
 <app-starrating></app-starrating>
+<app-budget></app-budget>
+
+
+
+
+
+
+
+
+
+
