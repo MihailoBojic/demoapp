@@ -1,0 +1,237 @@
+.my-btn{
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: none;
+}
+.back{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+}
+#h-1{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1F2933;
+  margin-left: 10%;
+}
+#h-2{
+margin-top: 149px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: #1F2933;
+margin-left: 10%;
+}
+.my-btns{
+  display: flex;
+  justify-content: center;
+}
+.f-btn1{
+  position: absolute;
+width: 100px;
+height: 49px;
+left: 24px;
+top: 169px;
+background:  #FFFFFF;
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+}
+.f-btn2{
+  position: absolute;
+width: 100px;
+height: 49px;
+left: 138px;
+top: 169px;
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+}
+.f-btn3{
+  position: absolute;
+width: 100px;
+height: 49px;
+left: 251px;
+top: 169px;
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+}
+.f-btn4{
+  position: absolute;
+width: 100px;
+height: 49px;
+left: 24px;
+top: 239px;
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+}
+.btn-slider{
+width: 100px;
+height: 100px;
+background: #FFFFFF;
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+}
+.button-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.my-icon {
+  font-size: 30px; /* Podesite veličinu ikonice prema vašim potrebama */
+}
+.h-3{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1F2933;
+  margin-left: 10%;
+}
+
+.my-btns-2{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30%;
+}
+.f-btn1-2{
+  position: absolute;
+width: 100px;
+height: 49px;
+left: 24px;
+top: 859px;
+background:  #FFFFFF;
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+}
+.f-btn2-2{
+  position: absolute;
+width: 100px;
+height: 49px;
+left: 138px;
+top: 859px;
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+}
+.f-btn3-2{
+  position: absolute;
+width: 100px;
+height: 49px;
+left: 251px;
+top: 859px;
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+}
+.f-btn4-2{
+  position: absolute;
+width: 100px;
+height: 49px;
+left: 24px;
+top: 919px;
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+}
+.f-btn1-3{
+  position: absolute;
+width: 100px;
+height: 49px;
+left: 24px;
+top: 1219px;
+background:  #FFFFFF;
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+}
+.f-btn2-3{
+  position: absolute;
+width: 100px;
+height: 49px;
+left: 138px;
+top: 1219px;
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+}
+.f-btn3-3{
+  position: absolute;
+width: 100px;
+height: 49px;
+left: 251px;
+top: 1219px;
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+}
+.mat-slider {
+  margin-right: 15%;
+  margin-left: 15%;
+  width: 70%;
+}
+.end{
+  display: flex;
+  justify-content: center;
+}
+.my-btn-3{
+  display: flex;
+  justify-content: center;
+}
+.f-btn1-4{
+  position: absolute;
+width: 120px;
+height: 49px;
+left: 24px;
+top: 1379px;
+background:  #FFFFFF;
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+}
+.f-btn2-4{
+  position: absolute;
+width: 180px;
+height: 49px;
+left: 178px;
+top: 1379px;
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+}
+
+

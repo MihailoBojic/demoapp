@@ -6,6 +6,7 @@ import { PopularPlacesComponent } from './popular-places/popular-places.componen
 import { ActivitiesComponent } from './activities/activities.component';
 import { CreateComponent } from './create/create.component';
 import { FeaturedActivitiesComponent } from './featured-activities/featured-activities.component';
+import { FilterComponent } from './filter/filter.component';
 
 const routes: Routes = [
   {path : '', component: HomeComponent},
@@ -14,7 +15,8 @@ const routes: Routes = [
   {path: 'popular_places', component: PopularPlacesComponent},
   {path: 'activities' , component: ActivitiesComponent},
   {path: 'create', component: CreateComponent},
-  {path: 'featured', component: FeaturedActivitiesComponent}
+  {path: 'featured', component: FeaturedActivitiesComponent},
+  {path: 'filter', component: FilterComponent}
 ];
 
 @NgModule({

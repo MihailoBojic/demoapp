@@ -1,0 +1,64 @@
+<div class="back">
+  <button class="my-btn"  (click)="onBackToFeatured()"><i class="bi bi-arrow-left"></i></button> <h2> Filter </h2> <button class="my-btn"><i class="bi bi-info-circle"></i></button>
+</div>
+<h1 id="h-1">Destination</h1>
+
+<div class="my-btns">
+<button class="f-btn1">Shkodra Lake</button>
+<button class="f-btn2">Durmitor</button>
+<button class="f-btn3">Budva</button>
+<button class="f-btn4">Kotor</button>
+</div>
+
+<h1 id="h-2">Time</h1>
+
+<div class="container">
+  <div class="row">
+    <div class="button-wrapper">
+      <button class="btn-slider"><i class="bi bi-sun my-icon"></i><br>8AM -12PM</button>
+      <button class="btn-slider"><i class="bi bi-sunrise my-icon"></i><br>12PM -17PM</button>
+      <button class="btn-slider"><i class="bi bi-moon-stars my-icon"></i><br>18PM -19PM</button>
+    </div>
+  </div>
+</div>
+<br>
+<app-interests></app-interests>
+<br>
+<h1 class="h-3">Duration</h1>
+
+<div class="my-btns-2">
+  <button class="f-btn1-2">2-3 hours</button>
+  <button class="f-btn2-2">3-5 hours</button>
+  <button class="f-btn3-2">5-7 hours</button>
+  <button class="f-btn4-2">7-full day hours</button>
+  </div>
+<br>
+<app-starrating></app-starrating>
+<br>
+<h1 class="h-3">Activity</h1>
+
+<div class="my-btns">
+  <button class="f-btn1-3">Low</button>
+  <button class="f-btn2-3">Medium</button>
+  <button class="f-btn3-3">High</button>
+</div>
+<br>
+<h1 class="h-3">Budget</h1>
+<br>
+<mat-slider
+  showTickMarks="true"
+  min="0"
+  max="700"
+  step="50"
+  class="mat-slider"
+  color="blue"
+  discrete="true">
+  <input matSliderStartThumb [(ngModel)]="startValue">
+  <input matSliderEndThumb [(ngModel)]="endValue">
+</mat-slider>
+  <h2 class="end"> {{startValue}} €- {{endValue}} €</h2>
+
+<div class="my-btns-3">
+  <button class="f-btn1-4">Reset</button>
+  <button class="f-btn2-4">Apply</button>
+</div>

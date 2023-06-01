@@ -11,7 +11,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 import { ActivitiesComponent } from './activities/activities.component';
 
-import { FormsModule } from '@angular/forms';
+import { FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CreateComponent } from './create/create.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatDatepickerModule } from '@angular/material/datepicker';
@@ -26,6 +26,8 @@ import { BudgetComponent } from './budget/budget.component';
 import { FeaturedActivitiesComponent } from './featured-activities/featured-activities.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule} from '@angular/material/menu';
+import { FilterComponent } from './filter/filter.component';
+import { CommonModule } from '@angular/common';
 
 
 
@@ -42,7 +44,8 @@ import { MatMenuModule} from '@angular/material/menu';
     StarratingComponent,
     CreateComponent,
     BudgetComponent,
-    FeaturedActivitiesComponent
+    FeaturedActivitiesComponent,
+    FilterComponent
 
   ],
   imports: [
@@ -57,10 +60,16 @@ import { MatMenuModule} from '@angular/material/menu';
     MatNativeDateModule,
     MatSliderModule,
     MatButtonModule,
-    MatMenuModule
+    MatMenuModule,
+    ReactiveFormsModule
  ],
  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [HttpClient],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports: [
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule
+  ]
 })
 export class AppModule { }

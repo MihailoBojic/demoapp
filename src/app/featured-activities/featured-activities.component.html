@@ -1,4 +1,4 @@
-<div class="container" id="search-container">
+<form [formGroup]="myForm"><div class="container" id="search-container">
   <div class="row">
     <div class="col-10">
       <input type="text" placeholder="Search.." class="form-control my-input" />
@@ -18,7 +18,7 @@
     </ul>
 
 
-  <button class="f-btn2"><i class="bi bi-filter"></i>Filter</button>
+  <button class="f-btn2" (click)="onGoToFilter()"><i class="bi bi-filter"></i>Filter</button>
   <button class="f-btn3"><i class="bi bi-map"></i>Map</button>
 </div>
 
@@ -40,7 +40,7 @@
 
       <p class="card-text" style="display: inline; margin-right: 70px;"><i class="bi bi-pin-fill"></i>{{activity.lokacija}}</p>
       <p class="card-text" style="display: inline; ">{{activity.cijena}}</p>
-
+    </div>
     </div>
   </div>
-</div>
+</form>
