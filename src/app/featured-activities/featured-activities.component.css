@@ -1,0 +1,162 @@
+#search-container {
+  margin-top: 30px;
+  margin-left: 8%;
+}
+.my-btns{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30%;
+}
+.my-input{
+  /* position: absolute;
+width: 267px;
+height: 48px;
+left: 24px;
+top: 44px; */
+width: 300px;
+
+background: #FFFFFF;
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+}
+
+.f-btn1{
+  position: absolute;
+width: 100px;
+height: 49px;
+left: 24px;
+top: 109px;
+background: #3484FF;
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+}
+.f-btn2{
+  position: absolute;
+width: 100px;
+height: 49px;
+left: 138px;
+top: 109px;
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+}
+.f-btn3{
+  position: absolute;
+width: 100px;
+height: 49px;
+left: 251px;
+top: 109px;
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+
+}
+.container-slides{
+  margin-top:6%;
+}
+.card{
+  margin-bottom: 10px;
+  margin-left: 8%;
+  margin-right: 2%;
+}
+.tekst {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: #1F2933;
+margin-right: 150px;
+}
+#tekst-row {
+  display: inline;
+  margin-bottom: 20px;
+}
+#h-1{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: #1F2933;
+margin-left: 10%;
+
+}
+.f-btn1 {
+background: #3484FF;
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+}
+
+.dropdown-toggle {
+  background-color: #f1f1f1;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+
+  position: absolute;
+  width: 327px;
+  height: 221px;
+  left: 24px;
+  top: 168px;
+
+  background: #FFFFFF;
+  /* shadow */
+
+  box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+  border-radius: 24px;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+}
+
+.dropdown-menu li a {
+  color: #333;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f9f9f9;
+}
+/* .option{
+  position: absolute;
+width: 169px;
+height: 21px;
+left: calc(50% - 169px/2 - 59px);
+top: 240px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* #1F2933 */
+
+/* color: #1F2933;
+} */
+
+

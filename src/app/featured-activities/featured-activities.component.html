@@ -1,0 +1,46 @@
+<form [formGroup]="myForm"><div class="container" id="search-container">
+  <div class="row">
+    <div class="col-10">
+      <input type="text" placeholder="Search.." class="form-control my-input" />
+    </div>
+    <div class="col-2">
+      <i id="bell" class="bi bi-bell"></i>
+    </div>
+  </div>
+</div>
+<div class="my-btns">
+    <button class="f-btn1" (click)="toggleDropdown()"><i class="bi bi-arrow-down-up"></i>Sort</button>
+    <ul class="dropdown-menu" [ngClass]="{ 'show': isDropdownOpen }">
+      <li class="option" ><a href="#">Recommended</a></li>
+      <li class="option"><a href="#">Price: High to low</a></li>
+      <li class="option"><a href="#">Price: Low to high</a></li>
+      <li class="option"><a href="#">Rating</a></li>
+    </ul>
+
+
+  <button class="f-btn2" (click)="onGoToFilter()"><i class="bi bi-filter"></i>Filter</button>
+  <button class="f-btn3"><i class="bi bi-map"></i>Map</button>
+</div>
+
+<h1 id="h-1">Featured activities</h1>
+
+<div class="container-slides" *ngFor="let activity of activitisData">
+  <div class="card">
+    <img
+      class="card-img-top"
+      [src]="activity.slika"
+      alt="alt"
+    />
+    <div class="card-body">
+      <p class="card-text"  style="margin-right: 50px; display: inline;" >
+        {{ activity.tip }}  |
+      </p>
+      <p class="card-text" style="display: inline;"  > <i class="bi bi-star-fill"></i> {{ activity.ocjena }}</p>
+      <p class="card-text"><b>{{activity.opis}}</b></p>
+
+      <p class="card-text" style="display: inline; margin-right: 70px;"><i class="bi bi-pin-fill"></i>{{activity.lokacija}}</p>
+      <p class="card-text" style="display: inline; ">{{activity.cijena}}</p>
+    </div>
+    </div>
+  </div>
+</form>
