@@ -25,7 +25,7 @@ position: absolute;
 justify-content: center;
 width: 280px;
 height: 56px;
-left: 65px;
+left: 55px;
 top: 235px;
 
 /* #3484FF */
@@ -96,5 +96,9 @@ margin-right: 150px;
   margin-right: 50px;
 }
 .card{
-  margin-left: 8%;
+  border: none;
+}
+button{
+  border: solid rgb(243, 243, 246);
+  cursor: pointer;
 }

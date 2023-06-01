@@ -11,3 +11,8 @@ margin-right: 150px;
   display: inline;
   margin-bottom: 20px;
 }
+
+
+.card{
+  border: none;
+}

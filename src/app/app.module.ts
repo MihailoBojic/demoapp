@@ -23,6 +23,7 @@ import { TravelComponent } from './travel/travel.component';
 import { InterestsComponent } from './interests/interests.component';
 import { StarratingComponent } from './starrating/starrating.component';
 import { BudgetComponent } from './budget/budget.component';
+import { SingleActivitiesComponent } from './single-activities/single-activities.component';
 
 
 
@@ -38,7 +39,8 @@ import { BudgetComponent } from './budget/budget.component';
     InterestsComponent,
     StarratingComponent,
     CreateComponent,
-    BudgetComponent
+    BudgetComponent,
+    SingleActivitiesComponent
 
   ],
   imports: [

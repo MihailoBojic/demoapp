@@ -14,8 +14,8 @@
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
     <!-- Slides -->
-    <div class="swiper-slide" *ngFor="let activity of activitisData">
-      <div class="card">
+    <div class="swiper-slide" *ngFor="let activity of activitisData; let i = index" [id]="i + 1">
+      <div class="card" (click)="onLoad()">
         <img
           class="card-img-top"
           [src]="activity.slika"
@@ -30,43 +30,10 @@
 
           <p class="card-text" style="display: inline; margin-right: 70px;"><i class="bi bi-pin-fill"></i>{{activity.lokacija}}</p>
           <p class="card-text" style="display: inline; ">{{activity.cijena}}</p>
-
         </div>
         </div>
       </div>
     </div>
-    <!-- <div class="swiper-slide">
-      <div class="card">
-        <img
-          class="card-img-top"
-          src="../../assets/Thumbnailslika.png"
-          alt="Card image cap"
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Adventure | <i class="bi bi-star-fill"></i> 4,5
-          </p>
-          <p class="card-text"><b>Happy snorkeling in the sea</b></p>
-          <p class="card-text">$140 / Person</p>
-        </div>
-      </div>
-    </div>
-    <div class="swiper-slide">
-      <div class="card">
-        <img
-          class="card-img-top"
-          src="../../assets/Thumbnailslika.png"
-          alt="Card image cap"
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Adventure | <i class="bi bi-star-fill"></i> 4,5
-          </p>
-          <p class="card-text"><b>Happy snorkeling in the sea</b></p>
-          <p class="card-text">$140 / Person</p>
-        </div>
-      </div>
-    </div> -->
   </div>
 </div>
 

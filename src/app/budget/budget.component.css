@@ -22,10 +22,12 @@ color: #1F2933;
 box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
 border-radius: 24px;
 color: #8B9CAF;
+border: none;
 }
 .button-wrapper{
   display: flex;
   justify-content: space-between;
+
 }
 
 

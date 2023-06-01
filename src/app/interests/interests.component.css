@@ -12,6 +12,7 @@ color: #1F2933;
 
 
 .list-group-item{
+  white-space: nowrap;
   align-items: center;
   display: flex;
   display: inline;
@@ -25,6 +26,11 @@ color: #1F2933;
 .radio{
 margin-left: 80%;
 
+}
+.form-check{
+  display: flex;
+  justify-content: center;
+  padding: 8px;
 }
 
 

@@ -1,0 +1,55 @@
+<div class="container" id="header">
+  <i class="bi bi-arrow-left"></i>Details
+  <i class="bi bi-three-dots-vertical"></i>
+</div>
+
+<div class="container" style="display: flex; justify-content: center;">
+  <div class="row" >
+    <div class="card" style="border: none;" *ngFor="let activity of activitisData">
+      <img [src]="activity.slika" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <p class="card-text"  style="margin-right: 50px; display: inline;" >
+          {{ activity.tip }} |
+        </p>
+        <p class="card-text" style="display: inline;"  > <i class="bi bi-star-fill" style="color:  #FFA450;"></i> {{ activity.ocjena }}</p>
+        <br>
+        <br>
+        <p class="card-text" id="opis"><b>{{activity.opis}}</b></p>
+        <br>
+        <p class="card-text">Admire the breathtaking scenery and wildlife of Lake Skadar on a cruise deMore..</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p class="subtitle">About this activity</p>
+
+<div class="container">
+  <div class="row">
+    <div class="button-wrapper">
+      <button class="btn-slider"><i class="bi bi-alarm"></i><br>Duration</button>
+      <button class="btn-slider"><i class="bi bi-geo-alt"></i> <br>Loaction</button>
+      <button class="btn-slider" style="background-color: #3484FF; color: white;"><i class="bi bi-file-earmark-text"></i> <br>Description</button>
+    </div>
+  </div>
+</div>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="button-wrapper">
+      <button class="btn-slider"><i class="bi bi-plus-square"></i> <br>Included</button>
+      <button class="btn-slider"><i class="bi bi-emoji-smile"></i> <br>Not suitable</button>
+      <button class="btn-slider"><i class="bi bi-bag-check"></i> <br>What to bring</button>
+    </div>
+  </div>
+</div>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="button-wrapper">
+      <button class="btn-slider"><i class="bi bi-map"></i> <br>Itinerary</button>
+      <button class="btn-slider"><i class="bi bi-x-circle"></i>  <br>Cancellation</button>
+      <button class="btn-slider"><i class="bi bi-star"></i> <br>Highlights</button>
+    </div>
+  </div>
+</div>

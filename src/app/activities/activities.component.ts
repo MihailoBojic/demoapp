@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import Swiper from 'swiper';
 import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-activities',
@@ -8,9 +9,11 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./activities.component.css']
 })
 export class ActivitiesComponent implements OnInit {
+  index = []
 
   public swiper: any;
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient,
+    private router: Router) {}
 
   public ngOnInit() {
     this.swiper = new Swiper('.swiper', {
@@ -30,13 +33,25 @@ export class ActivitiesComponent implements OnInit {
         prevEl: '.swiper-button-prev',
       },
     });
+  }
 
+  card: any[] = [
 
+      { id: 0},
+      { id: 1},
+      { id: 2},
+  ]
+
+  trenutnaKartica: number = 0;
+
+  onLoad() {
+    this.trenutnaKartica = (this.trenutnaKartica + 1) % this.card.length;
   }
 
 
     activitisData =  [
     {
+
       slika: "../../assets/ThumbnailTara.png",
       tip: "Adventure",
       ocjena: 4.5,

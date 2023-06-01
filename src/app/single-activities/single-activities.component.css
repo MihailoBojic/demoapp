@@ -1,0 +1,50 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+color: #1F2933;
+}
+#opis{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+color: #1F2933;
+}
+
+.subtitle{
+  margin-left: 30px;
+  width: 167px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: #1F2933;
+}
+
+.btn-slider{
+  width: 100px;
+  height: 100px;
+  background: #FFFFFF;
+box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+border-radius: 24px;
+border: none;
+color: #8B9CAF;
+}
+.button-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+
