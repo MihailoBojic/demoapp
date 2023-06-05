@@ -12,7 +12,7 @@ import { DataService } from '../data.service';
 export class ActivitiesComponent implements OnInit {
 
   public swiper: any;
-activity: any;
+  activity: any;
   constructor(private http: HttpClient,
     private router: Router,
     private service: DataService) {}
@@ -49,5 +49,7 @@ activity: any;
       { queryParams: {id: activity.id} }
       );
   }
+
+  
 
 }

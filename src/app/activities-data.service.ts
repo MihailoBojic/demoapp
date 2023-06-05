@@ -51,6 +51,9 @@ fetchData() {
   )
 }
 
+
+
+
 getActivities() {
   return this.activitiesData;
 }

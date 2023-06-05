@@ -52,6 +52,9 @@ export class DataService {
             }
     )
   }
+  getActivityById(activityId: number) {
+    return this.activitisData.find(activity => activity.id === activityId);
+  }
 
   getData() {
     return this.activitisData;
