@@ -23,15 +23,12 @@ import { TravelComponent } from './travel/travel.component';
 import { InterestsComponent } from './interests/interests.component';
 import { StarratingComponent } from './starrating/starrating.component';
 import { BudgetComponent } from './budget/budget.component';
-<<<<<<< HEAD
 import { SingleActivitiesComponent } from './single-activities/single-activities.component';
-=======
 import { FeaturedActivitiesComponent } from './featured-activities/featured-activities.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule} from '@angular/material/menu';
 import { FilterComponent } from './filter/filter.component';
 import { CommonModule } from '@angular/common';
->>>>>>> f1d06a4e535f66d4c503adf592582fe9369d2332
 
 
 
@@ -48,12 +45,9 @@ import { CommonModule } from '@angular/common';
     StarratingComponent,
     CreateComponent,
     BudgetComponent,
-<<<<<<< HEAD
-    SingleActivitiesComponent
-=======
+    SingleActivitiesComponent,
     FeaturedActivitiesComponent,
     FilterComponent
->>>>>>> f1d06a4e535f66d4c503adf592582fe9369d2332
 
   ],
   imports: [

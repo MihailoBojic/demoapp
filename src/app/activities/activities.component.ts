@@ -12,6 +12,7 @@ export class ActivitiesComponent implements OnInit {
   index = []
 
   public swiper: any;
+activity: any;
   constructor(private http: HttpClient,
     private router: Router) {}
 
@@ -47,8 +48,6 @@ export class ActivitiesComponent implements OnInit {
   onLoad() {
     this.trenutnaKartica = (this.trenutnaKartica + 1) % this.card.length;
   }
-
-
     activitisData =  [
     {
 

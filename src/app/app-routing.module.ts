@@ -5,12 +5,9 @@ import { ExploreComponent } from './explore/explore.component';
 import { PopularPlacesComponent } from './popular-places/popular-places.component';
 import { ActivitiesComponent } from './activities/activities.component';
 import { CreateComponent } from './create/create.component';
-<<<<<<< HEAD
 import { SingleActivitiesComponent } from './single-activities/single-activities.component';
-=======
 import { FeaturedActivitiesComponent } from './featured-activities/featured-activities.component';
 import { FilterComponent } from './filter/filter.component';
->>>>>>> f1d06a4e535f66d4c503adf592582fe9369d2332
 
 const routes: Routes = [
   {path : '', component: HomeComponent},
@@ -19,12 +16,9 @@ const routes: Routes = [
   {path: 'popular_places', component: PopularPlacesComponent},
   {path: 'activities' , component: ActivitiesComponent},
   {path: 'create', component: CreateComponent},
-<<<<<<< HEAD
-  {path: 'single', component: SingleActivitiesComponent}
-=======
+  {path: 'single/:id', component: SingleActivitiesComponent},
   {path: 'featured', component: FeaturedActivitiesComponent},
   {path: 'filter', component: FilterComponent}
->>>>>>> f1d06a4e535f66d4c503adf592582fe9369d2332
 ];
 
 @NgModule({
