@@ -14,8 +14,8 @@
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
     <!-- Slides -->
-    <div class="swiper-slide" *ngFor="let activity of activitisData; let i = index" [id]="i + 1">
-      <div class="card" (click)="onLoad()">
+    <div class="swiper-slide" *ngFor="let activity of activitisData">
+      <div class="card" (click)="onLoad(activity)">
         <img
           class="card-img-top"
           [src]="activity.slika"

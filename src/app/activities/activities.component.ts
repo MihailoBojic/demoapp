@@ -9,7 +9,6 @@ import { Router } from '@angular/router';
   styleUrls: ['./activities.component.css']
 })
 export class ActivitiesComponent implements OnInit {
-  index = []
 
   public swiper: any;
   constructor(private http: HttpClient,
@@ -35,23 +34,20 @@ export class ActivitiesComponent implements OnInit {
     });
   }
 
-  card: any[] = [
 
-      { id: 0},
-      { id: 1},
-      { id: 2},
-  ]
 
-  trenutnaKartica: number = 0;
-
-  onLoad() {
-    this.trenutnaKartica = (this.trenutnaKartica + 1) % this.card.length;
+  onLoad(activity: any) {
+    console.log(activity)
+    this.router.navigate(
+      ['/single'],
+      { queryParams: {id: activity.id} }
+      );
   }
 
 
     activitisData =  [
     {
-
+      id: 0,
       slika: "../../assets/ThumbnailTara.png",
       tip: "Adventure",
       ocjena: 4.5,
@@ -60,6 +56,7 @@ export class ActivitiesComponent implements OnInit {
       cijena: "140$ / Person",
     },
     {
+      id: 1,
     slika: "../../assets/Thumbnailparagl.png",
     tip: "Adventure",
     ocjena: 4.5,
@@ -68,6 +65,7 @@ export class ActivitiesComponent implements OnInit {
     cijena: "140$ / Person",
   },
   {
+    id: 2,
     slika: "../../assets/Thumbnailslika.png",
     tip: "Adventure",
     ocjena: 4.5,

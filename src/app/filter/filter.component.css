@@ -21,7 +21,6 @@
   margin-left: 10%;
 }
 #h-2{
-margin-top: 149px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
@@ -32,63 +31,28 @@ margin-left: 10%;
 }
 .my-btns{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
 }
-.f-btn1{
-  position: absolute;
-width: 100px;
-height: 49px;
-left: 24px;
-top: 169px;
-background:  #FFFFFF;
-box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
-border-radius: 24px;
+
+.f-btn{
+  width: 100px;
+  height: 43px;
+  background: #FFFFFF;
+  /* shadow */
+  box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+  border-radius: 24px;
+  border: none;
 }
-.f-btn2{
-  position: absolute;
-width: 100px;
-height: 49px;
-left: 138px;
-top: 169px;
 
-background: #FFFFFF;
-/* shadow */
-
-box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
-border-radius: 24px;
-}
-.f-btn3{
-  position: absolute;
-width: 100px;
-height: 49px;
-left: 251px;
-top: 169px;
-
-background: #FFFFFF;
-/* shadow */
-
-box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
-border-radius: 24px;
-}
-.f-btn4{
-  position: absolute;
-width: 100px;
-height: 49px;
-left: 24px;
-top: 239px;
-
-background: #FFFFFF;
-/* shadow */
-
-box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
-border-radius: 24px;
-}
 .btn-slider{
 width: 100px;
 height: 100px;
 background: #FFFFFF;
 box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
 border-radius: 24px;
+border: none;
 }
 .button-wrapper{
   display: flex;
@@ -109,93 +73,26 @@ border-radius: 24px;
 
 .my-btns-2{
   display: flex;
-  justify-content: center;
-  margin-bottom: 30%;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-.f-btn1-2{
-  position: absolute;
-width: 100px;
-height: 49px;
-left: 24px;
-top: 859px;
-background:  #FFFFFF;
-box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
-border-radius: 24px;
+.f-btn2{
+  width: 100px;
+  height: 43px;
+  background: #ffff;
+  box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+  border-radius: 24px;
+  border: none;
 }
-.f-btn2-2{
-  position: absolute;
+.f-btn3{
 width: 100px;
-height: 49px;
-left: 138px;
-top: 859px;
-
+height: 43px;
 background: #FFFFFF;
-/* shadow */
-
 box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
 border-radius: 24px;
-}
-.f-btn3-2{
-  position: absolute;
-width: 100px;
-height: 49px;
-left: 251px;
-top: 859px;
+border: none;
 
-background: #FFFFFF;
-/* shadow */
 
-box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
-border-radius: 24px;
-}
-.f-btn4-2{
-  position: absolute;
-width: 100px;
-height: 49px;
-left: 24px;
-top: 919px;
-
-background: #FFFFFF;
-/* shadow */
-
-box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
-border-radius: 24px;
-}
-.f-btn1-3{
-  position: absolute;
-width: 100px;
-height: 49px;
-left: 24px;
-top: 1219px;
-background:  #FFFFFF;
-box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
-border-radius: 24px;
-}
-.f-btn2-3{
-  position: absolute;
-width: 100px;
-height: 49px;
-left: 138px;
-top: 1219px;
-
-background: #FFFFFF;
-/* shadow */
-
-box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
-border-radius: 24px;
-}
-.f-btn3-3{
-  position: absolute;
-width: 100px;
-height: 49px;
-left: 251px;
-top: 1219px;
-
-background: #FFFFFF;
-/* shadow */
-
-box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
-border-radius: 24px;
 }
 .mat-slider {
   margin-right: 15%;
@@ -206,32 +103,30 @@ border-radius: 24px;
   display: flex;
   justify-content: center;
 }
-.my-btn-3{
+.my-btns-3{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
-.f-btn1-4{
-  position: absolute;
-width: 120px;
-height: 49px;
-left: 24px;
-top: 1379px;
-background:  #FFFFFF;
-box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
-border-radius: 24px;
-}
-.f-btn2-4{
-  position: absolute;
-width: 180px;
-height: 49px;
-left: 178px;
-top: 1379px;
 
+.f-btn-4{
 background: #FFFFFF;
-/* shadow */
-
-box-shadow: 0px 24px 82px rgba(49, 79, 124, 0.08);
+width: 80px;
+box-shadow: 24px 0px 48px rgba(49, 79, 124, 0.08);
 border-radius: 24px;
+border: none;
 }
+
+.f-btn2-4{
+  width: 254px;
+  height: 56px;
+  background: #3484FF;
+  box-shadow: 0px 16px 32px rgba(52, 132, 255, 0.24);
+  border-radius: 56px;
+  border: none;
+  color: white;
+}
+
+
+
 
 

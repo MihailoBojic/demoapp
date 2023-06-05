@@ -4,18 +4,12 @@ font-style: normal;
 font-weight: 600;
 font-size: 18px;
 line-height: 24px;
-/* identical to box height, or 133% */
-
 text-align: center;
-
-/* #1F2933 */
-
 color: #1F2933;
 }
 
 
 .btn-slider{
-
   width: 100px;
   height: 100px;
   background: #FFFFFF;
@@ -24,6 +18,8 @@ border-radius: 24px;
 color: #8B9CAF;
 border: none;
 }
+
+
 .button-wrapper{
   display: flex;
   justify-content: space-between;
