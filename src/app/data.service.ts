@@ -52,5 +52,9 @@ export class DataService {
             }
     )
   }
+
+  getData() {
+    return this.activitisData;
+  }
 }
 

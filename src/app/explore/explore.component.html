@@ -44,11 +44,11 @@
 
 <div class="container">
 <!-- Slider main container -->
-<div class="swiper">
+<div class="swiper" >
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
     <!-- Slides -->
-    <div class="swiper-slide" *ngFor="let tour of toursData">
+    <div class="swiper-slide" *ngFor="let tour of activities" (click)="divClicked(tour.id)">
       <div class="card">
         <img
           class="card-img-top"

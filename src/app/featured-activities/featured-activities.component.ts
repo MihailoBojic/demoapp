@@ -17,8 +17,10 @@ export class FeaturedActivitiesComponent implements OnInit{
     console.log('Selected option:', option);
     // Dodajte svoju logiku za odabir opcije
   }
+ 
   activitisData =  [
     {
+      id: 0,
       slika: "../../assets/ThumbnailTara.png",
       tip: "Adventure",
       ocjena: 4.5,
@@ -27,6 +29,7 @@ export class FeaturedActivitiesComponent implements OnInit{
       cijena: "140$ / Person",
     },
     {
+      id:1,
     slika: "../../assets/Thumbnailparagl.png",
     tip: "Adventure",
     ocjena: 4.5,
@@ -35,6 +38,7 @@ export class FeaturedActivitiesComponent implements OnInit{
     cijena: "140$ / Person",
   },
   {
+    id:2,
     slika: "../../assets/Thumbnailslika.png",
     tip: "Adventure",
     ocjena: 4.5,

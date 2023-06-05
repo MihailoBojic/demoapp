@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import Swiper from 'swiper';
+import { ActivitiesDataService } from '../activities-data.service';
 
 @Component({
   selector: 'app-explore',
@@ -10,7 +11,9 @@ import Swiper from 'swiper';
 })
 export class ExploreComponent implements OnInit {
   public swiper: any;
-  constructor(private http: HttpClient, private router: Router) {}
+  toursId: number|any;
+  activities: any[] | any;
+  constructor(private http: HttpClient, private router: Router, private activitiesService: ActivitiesDataService) {}
 
   public ngOnInit() {
     this.swiper = new Swiper('.swiper', {
@@ -32,48 +35,15 @@ export class ExploreComponent implements OnInit {
     });
 
     console.log(this.swiper);
+    this.activities = this.activitiesService.getActivities();
   }
 
-  toursData =  [
-    {
-      slika: "../../assets/Thumbnailslika.png",
-      tip: "Adventure",
-      ocjena: 4.5,
-      opis: "Blue cave and bay of Kotor ...",
-      lokacija: "Kotor",
-      cijena: "140$ / Person",
-    },
-    {
-    slika: "../../assets/ThumbnailPerast.png",
-    tip: "Adventure",
-    ocjena: 4.5,
-    opis: "Perast, Lady of the Rock, an...",
-    lokacija: "Perast",
-    cijena: "140$ / Person",
-  },
-  {
-    slika: "../../assets/Thumbnailslika.png",
-    tip: "Adventure",
-    ocjena: 4.5,
-    opis: "Blue cave and bay of Kotor ...",
-    lokacija: "Kotor",
-    cijena: "140$ / Person",
-  }
-]
 
-jsonRequest = JSON.stringify(this.toursData)
-
-fetchData() {
-  this.http.get<any[]>(this.jsonRequest).subscribe(
-    (data) => {
-      this.toursData = data;
-          },
-          (error) => {
-            console.error("Doslo je do greske:", error)
-          }
-  )
-}
 onCreateTour(){
   this.router.navigate(['/create'])
+}
+divClicked(toursId: number) {
+  console.log(toursId);
+  this.router.navigate(['/single'], {queryParams: {id:toursId}});
 }
 }
