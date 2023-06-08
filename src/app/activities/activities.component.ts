@@ -7,17 +7,20 @@ import { DataService } from '../data.service';
 @Component({
   selector: 'app-activities',
   templateUrl: './activities.component.html',
-  styleUrls: ['./activities.component.css']
+  styleUrls: ['./activities.component.css'],
 })
 export class ActivitiesComponent implements OnInit {
-
   public swiper: any;
   activity: any;
-  constructor(private http: HttpClient,
-    private router: Router,
-    private service: DataService) {}
+  toursId:number|any;
 
-    activities: any[] | any;
+  constructor(
+    private http: HttpClient,
+    private router: Router,
+    private service: DataService
+  ) {}
+
+  activities: any[] | any;
 
   public ngOnInit() {
     this.swiper = new Swiper('.swiper', {
@@ -37,19 +40,6 @@ export class ActivitiesComponent implements OnInit {
         prevEl: '.swiper-button-prev',
       },
     });
-    this.activities = this.service.getData()
+    this.activities = this.service.getData();
   }
-
-
-
-  onLoad(activity: any) {
-    console.log(activity)
-    this.router.navigate(
-      ['/single'],
-      { queryParams: {id: activity.id} }
-      );
-  }
-
-  
-
 }

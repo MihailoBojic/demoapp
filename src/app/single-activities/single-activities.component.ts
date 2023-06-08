@@ -32,4 +32,7 @@ export class SingleActivitiesComponent implements OnInit {
       }
     });
   }
+  onBackToPrevious(){
+    this.router.navigate(['/explore']);
+  }
 }

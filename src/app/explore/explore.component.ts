@@ -34,16 +34,22 @@ export class ExploreComponent implements OnInit {
       },
     });
 
-    console.log(this.swiper);
-    this.activities = this.activitiesService.getActivities();
-  }
+  //   console.log(this.swiper);
+  //   this.activities = this.activitiesService.getActivities();
+  // }
 
 
-onCreateTour(){
-  this.router.navigate(['/create'])
+// onCreateTour(){
+//   this.router.navigate(['/create'])
+// }
+// divClicked(toursId: number) {
+//   console.log(toursId);
+//   this.router.navigate(['/single'], {queryParams: {id:toursId}});
+// }
+// }
+
+
 }
-divClicked(toursId: number) {
-  console.log(toursId);
-  this.router.navigate(['/single'], {queryParams: {id:toursId}});
-}
+onCreateTour(){}
+divClicked(){}
 }
