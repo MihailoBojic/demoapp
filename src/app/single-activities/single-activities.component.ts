@@ -9,8 +9,8 @@ import { DataService } from '../data.service';
   styleUrls: ['./single-activities.component.css'],
 })
 export class SingleActivitiesComponent implements OnInit {
-  activities: any[] | any;
-  activity: any;
+  activitiesData = [];
+  activity: Activity[] = [];
 
   constructor(
     private http: HttpClient,
@@ -20,16 +20,36 @@ export class SingleActivitiesComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
+    console.log("aaaa")
     this.route.queryParams.subscribe((params) => {
+       this.service.getActivitiesData().subscribe((res => {
+        console.log(res)
+        console.log(params)
+        this.activitiesData = res.data.activities
+        console.log(this.activitiesData)
+        this.activity = this.activitiesData.filter((obj:any) => {
+          return obj.id == params['id']
+        })
+        console.log(this.activity)
 
-      this.activities = this.service.getData();
-      this.activity = this.activities.filter((obj: { id: any }) => {
-        return obj.id == params['id'];
-      });
-
-      if (this.activity.length > 0) {
-        this.activity = this.activity[0];
-      }
-    });
+      }))
+  });
   }
 }
+interface Activity {
+  id: number;
+  name: string;
+  description: string;
+  category: string;
+  city: string;
+  address: string;
+  pricing: [
+    {
+      type: string;
+      price: number;
+      discount: any[];
+    }
+  ];
+  ranking: number;
+}
+

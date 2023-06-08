@@ -12,12 +12,13 @@ import { DataService } from '../data.service';
 export class ActivitiesComponent implements OnInit {
 
   public swiper: any;
-activity: any;
+
+ activitiesData: Activity[] = [];
+
   constructor(private http: HttpClient,
     private router: Router,
     private service: DataService) {}
 
-    activities: any[] | any;
 
   public ngOnInit() {
     this.swiper = new Swiper('.swiper', {
@@ -37,7 +38,13 @@ activity: any;
         prevEl: '.swiper-button-prev',
       },
     });
-    this.activities = this.service.getData()
+
+    this.service.getActivitiesData().subscribe((response) => {
+      console.log(response)
+      this.activitiesData = response.data.activities
+      console.log(this.activitiesData)
+    })
+
   }
 
 
@@ -49,5 +56,23 @@ activity: any;
       { queryParams: {id: activity.id} }
       );
   }
+
+}
+interface Activity {
+  id: number;
+  name: string;
+  description: string;
+  category: string;
+  city: string;
+  address: string;
+  pricing: [
+    {
+      type: string;
+      price: number;
+      discount: any[];
+    }
+  ];
+  price: number;
+  ranking: number;
 
 }

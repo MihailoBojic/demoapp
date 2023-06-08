@@ -6,24 +6,23 @@
 <div class="container" style="display: flex; justify-content: center">
   <div class="row">
     <div class="card" style="border: none">
-      <img [src]="activity.slika" class="card-img-top" alt="..." />
+      <img src="../../assets/ThumbnailPerast.png" class="card-img-top" alt="..." />
       <div class="card-body">
         <p class="card-text" style="margin-right: 50px; display: inline">
-          {{ activity.tip }} |
+          {{ activity[0].category }} |
         </p>
         <p class="card-text" style="display: inline">
           <i class="bi bi-star-fill" style="color: #ffa450"></i>
-          {{ activity.ocjena }}
+          {{ activity[0].ranking }}
         </p>
         <br />
         <br />
         <p class="card-text" id="opis">
-          <b>{{ activity.opis }}</b>
+          <b>{{ activity[0].name }}</b>
         </p>
         <br />
         <p class="card-text">
-          Admire the breathtaking scenery and wildlife of Lake Skadar on a
-          cruise deMore..
+          {{ activity[0].description }}
         </p>
       </div>
     </div>

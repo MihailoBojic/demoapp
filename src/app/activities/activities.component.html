@@ -11,22 +11,21 @@
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
     <!-- Slides -->
-    <div class="swiper-slide" *ngFor="let activity of activities">
+    <div class="swiper-slide" *ngFor="let activity of activitiesData">
       <div class="card" (click)="onLoad(activity)">
         <img
           class="card-img-top"
-          [src]="activity.slika"
+          src= "../../assets/Thumbnailslika.png"
           alt="alt"
         />
         <div class="card-body">
           <p class="card-text"  style="margin-right: 50px; display: inline;" >
-            {{ activity.tip }}  |
+            {{activity.category}}  |
           </p>
-          <p class="card-text" style="display: inline;"  > <i class="bi bi-star-fill"></i> {{ activity.ocjena }}</p>
-          <p class="card-text"><b>{{activity.opis}}</b></p>
-
-          <p class="card-text" style="display: inline; margin-right: 70px;"><i class="bi bi-pin-fill"></i>{{activity.lokacija}}</p>
-          <p class="card-text" style="display: inline; ">{{activity.cijena}}</p>
+          <p class="card-text" style="display: inline;"  > <i class="bi bi-star-fill"></i> {{ activity.ranking }}</p>
+          <p class="card-text"><b>{{activity.name}}</b></p>
+           <p class="card-text" style="display: inline; margin-right: 80px;"><i class="bi bi-pin-fill"></i>{{activity.city}}</p>
+          <p class="card-text" style="display: inline;">{{activity.pricing[0].price}} $ / Person</p>
         </div>
         </div>
       </div>
