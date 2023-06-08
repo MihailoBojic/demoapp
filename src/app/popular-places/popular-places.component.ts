@@ -42,7 +42,7 @@ data:any;
 constructor(private http: HttpClient) { }
 
 ngOnInit() {
-  this.http.get<any>(this.jsonString).subscribe(data => {
+  this.http.get(this.jsonString).subscribe(data => {
     this.data = data;
   });
 }

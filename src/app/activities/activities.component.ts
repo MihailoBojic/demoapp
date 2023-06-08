@@ -11,16 +11,13 @@ import { DataService } from '../data.service';
 })
 export class ActivitiesComponent implements OnInit {
   public swiper: any;
-  activity: any;
-  toursId:number|any;
 
-  constructor(
-    private http: HttpClient,
+ activitiesData: Activity[] = [];
+
+  constructor(private http: HttpClient,
     private router: Router,
-    private service: DataService
-  ) {}
+    private service: DataService) {}
 
-  activities: any[] | any;
 
   public ngOnInit() {
     this.swiper = new Swiper('.swiper', {
@@ -40,6 +37,30 @@ export class ActivitiesComponent implements OnInit {
         prevEl: '.swiper-button-prev',
       },
     });
-    this.activities = this.service.getData();
+
+    this.service.getActivitiesData().subscribe((response) => {
+      console.log(response)
+      this.activitiesData = response.data.activities
+      console.log(this.activitiesData)
+    })
+
   }
+}
+interface Activity {
+  id: number;
+  name: string;
+  description: string;
+  category: string;
+  city: string;
+  address: string;
+  pricing: [
+    {
+      type: string;
+      price: number;
+      discount: any[];
+    }
+  ];
+  price: number;
+  ranking: number;
+
 }
