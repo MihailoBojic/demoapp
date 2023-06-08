@@ -2,7 +2,6 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { DataService } from '../data.service';
-
 @Component({
   selector: 'app-single-activities',
   templateUrl: './single-activities.component.html',
@@ -18,7 +17,6 @@ export class SingleActivitiesComponent implements OnInit {
     private router: Router,
     private service: DataService
   ) {}
-
   ngOnInit(): void {
     console.log("aaaa")
     this.route.queryParams.subscribe((params) => {
@@ -34,9 +32,6 @@ export class SingleActivitiesComponent implements OnInit {
 
       }))
   });
-  }
-  onBackToPrevious(){
-    this.router.navigate(['/explore']);
   }
 }
 interface Activity {
