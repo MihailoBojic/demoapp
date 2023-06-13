@@ -49,13 +49,7 @@ export class ActivitiesComponent implements OnInit {
 
 
 
-  onLoad(activity: any) {
-    console.log(activity)
-    this.router.navigate(
-      ['/single'],
-      { queryParams: {id: activity.id} }
-      );
-  }
+
 
 }
 interface Activity {

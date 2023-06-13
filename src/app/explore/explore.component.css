@@ -3,14 +3,14 @@
   margin-left: 8%;
 }
 
-#explore {
+/* #explore {
   background-image: url("../../assets/Thumbnail.jpg");
   display: flex;
   justify-content: center;
   filter: drop-shadow(0px 24px 82px rgba(49, 79, 124, 0.2));
   border-radius: 24px;
   top: 50px;
-}
+} */
 
 
 .logo {
