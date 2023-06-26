@@ -1,0 +1,2813 @@
+{
+    "data": {
+        "activities": [
+            {
+                "id": 1,
+                "name": "Lake Skadar Panoramic Boat Tour to Kom Monastery",
+                "description": "Join us for an unforgettable sightseeing boat tour from the charming townlet of Virpazar, nestled right within the heart of Lake Skadar. Explore the stunning beauty of this magnificent lake and visit the medieval Kom Monastery. Set sail on a traditional wooden boat known as čun, and let your guide reveal the hidden gems of the region. Indulge in delicious local wine and take in the breathtaking scenery. Come and join us for an adventure of a lifetime! Experience the breathtaking sight of Vranjina's two majestic peaks as you sail through a narrow river canal. Admire Lesendro, the Key of Lake Skadar, an 18th-century structure where birds often perch atop the ruins. Discover the hidden beauty of three islands adorned with thousands of water lilies next, just before arriving at the medieval monastery Kom. Perched atop Odrin Hill, this hidden gem is accessible only by boat and is home to the best-preserved frescoes in the area. Immerse yourself in the sweet aroma of wild thyme during your 30-minute visit. Finally, enjoy a refreshing swim in the pristine waters of Lake Skadar, and take in the picturesque views of the untouched nature that surrounds you on the way back.",
+                "category": "boat touring",
+                "city": "Bar",
+                "address": "Virpazar",
+                "geolocation": {
+                    "lat": 42.246359, 
+                    "lng": 19.092159
+                },
+                "included": [
+                    "Sightseeing boat trip from Virpazar to Kom Monastery",
+                    "30-minute visit to the monastery",
+                    "Local guide",
+                    "Local wine tasting"
+                ],
+                "excluded": [
+                    "National park entry fee (€5 per person, free for children under 15 years)"
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 15,
+                        "discounts": [
+                            {
+                                "min_persons": 3,
+                                "max_persons": 5,
+                                "discount": 10
+                            },
+                            {
+                                "min_persons": 5,
+                                "max_persons": null,
+                                "discount": 15
+                            }
+                        ]
+                    },
+                    {
+                        "type": "child",
+                        "price": 10,
+                        "discounts": []
+                    }
+                ],
+                "duration": 180,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Swimwear", "Towel", "Sunscreen" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "Although the cost of meals are not included in the tour, meals can be arranged by the activity provider, and paid for at your own expense, if you contact the activity provider a few days in advance to make arrangements During the summer, Montenegro has constant traffic jams, so be sure to plan your journey to Virpazar early and give yourself enough time to find parking" ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "features": {
+                    "adventure": 7,
+                    "nature": 10,
+                    "relaxing": 9,
+                    "food-and-beverage": 4,
+                    "cultural": 2,
+                    "historical": 8
+                },
+                "ranking": 4.6,
+                "start_time": "06:30",
+                "end_time": "20:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 6,
+                    "evening": 10
+                },
+                "capacity": 10,
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                },
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-01T09:00:00",
+                        "occupied_until": "2021-08-01T12:00:00",
+                        "capacity_filled": 10
+                    },
+                    {
+                        "occupied_from": "2021-08-01T12:00:00",
+                        "occupied_until": "2021-08-01T15:00:00",
+                        "capacity_filled": 8
+                    },
+                    {
+                        "occupied_from":"2021-08-01T13:00:00",
+                        "occupied_until":"2021-08-01T16:00:00",
+                        "capacity_filled": 1
+                    },
+                    {
+                        "occupied_from":"2021-08-01T15:00:00",
+                        "occupied_until":"2021-08-01T18:00:00",
+                        "capacity_filled": 7
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Lake Skadar Wilderness Boat Trip",
+                "description": "Uncover the captivating beauty of Lake Skadar on a boat tour. Dive into crystal-clear waters, spot diverse bird species, sip on local wine, and admire the grandeur of Fort Lesendro.",
+                "category": "boat touring",
+                "city": "Bar",
+                "address": "Virpazar",
+                "geolocation": {
+                    "lat": 42.246359, 
+                    "lng": 19.092159
+                },
+                "included": [
+                    "Sightseeing boat tour",
+                    "Wine tasting",
+                    "Written guides on several languages"
+                ],
+                "excluded": [
+                    "Food",
+                    "Gratuities"
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 10,
+                        "discounts": []
+                    },
+                    {
+                        "type": "child",
+                        "price": 7,
+                        "discounts": []
+                    }
+                ],
+                "duration": 120,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Comfortable shoes", "Camera", "Sunscreen" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "Not recommended for individuals with mobility issues" ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "features": {
+                    "adventure": 8,
+                    "nature": 10,
+                    "relaxing": 7,
+                    "food-and-beverage": 4,
+                    "cultural": 2,
+                    "historical": 9
+                },
+                "ranking": 4.2,
+                "start_time": "10:00",
+                "end_time": "20:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 6,
+                    "evening": 10
+                },
+                "capacity": 12,
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                },
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-02T10:00:00",
+                        "occupied_until": "2021-08-02T12:30:00",
+                        "capacity_filled": 9
+                    },
+                    {
+                        "occupied_from": "2021-08-02T14:00:00",
+                        "occupied_until": "2021-08-02T16:30:00",
+                        "capacity_filled": 7
+                    },
+                    {
+                        "occupied_from":"2021-08-02T16:00:00",
+                        "occupied_until":"2021-08-02T18:30:00",
+                        "capacity_filled": 5
+                    }
+                ]
+            },            
+            {
+                "id": 3,
+                "name": "Private Guided 2-Hour Lake Skadar Boat Tour",
+                "description": "A guided 2-hour boat tour to explore the wild beauty of Skadar Lake. The area is rich with different bird species, carpets of lotus flowers, fishing villages, fortresses, and beaches.",
+                "category": "boat touring",
+                "city": "Bar",
+                "address": "Virpazar",
+                "geolocation": {
+                    "lat": 42.246359, 
+                    "lng": 19.092159
+                },
+                "included": [
+                    "Boat tour",
+                    "Welcome drink",
+                    "Soft drinks and water",
+                    "Equipment for bird watching",
+                    "Experienced captain and crew"
+                ],
+                "excluded": [
+                    "Food and drinks",
+                    "Gratuities"
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 5,
+                        "discounts": []
+                    }
+                ],
+                "duration": 120,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Comfortable clothing", "Sunscreen", "Hat", "Water bottle" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items":[ "Moderate level of fitness required", "Not recommended for individuals with mobility issues or heart problems" ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "features": {
+                    "adventure": 9,
+                    "nature": 10,
+                    "relaxing": 8,
+                    "food-and-beverage": 4,
+                    "cultural": 4,
+                    "historical": 2
+                },
+                "ranking": 4.7,
+                "start_time": "09:00",
+                "end_time": "18:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 6,
+                    "evening": 10
+                },
+                "capacity": 10,
+                "participants": {
+                    "min": 1,
+                    "max": null,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                },
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-03T09:00:00",
+                        "occupied_until": "2021-08-03T12:00:00",
+                        "capacity_filled": 6
+                    },
+                    {
+                        "occupied_from": "2021-08-03T13:00:00",
+                        "occupied_until": "2021-08-03T16:00:00",
+                        "capacity_filled": 8
+                    },
+                    {
+                        "occupied_from":"2021-08-03T16:00:00",
+                        "occupied_until":"2021-08-03T19:00:00", 
+                        "capacity_filled": 4
+                    }
+                ]
+            },            
+            {
+                "id": 4,
+                "name": "Blue Cave and Bay of Kotor Day Trip by Boat",
+                "description": "Join a private or small-group boat tour through Boka Bay on a day trip from Kotor. Explore the Blue Cave and visit the iconic Our Lady of the Rocks island with an experienced skipper.",
+                "category": "boat crousing",
+                "city": "Kotor",
+                "address": "Kotor",
+                "geolocation": {
+                    "lat": 42.426533,
+                    "lng": 18.768078
+                },
+                "included": [
+                    "Bottle of water per passanger",
+                    "Skipper as a tour guide and driver",
+                    "Fuel",
+                    "All fees and taxes"
+                ],
+                "excluded": [
+                    "Entrance to Our Lady of the Rocks Museum",
+                    "Food and alcohol drinks"
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 150,
+                        "discounts": [
+                            {
+                                "min_persons": 3,
+                                "max_persons": 5,
+                                "discount": 10
+                            },
+                            {
+                                "min_persons": 5,
+                                "max_persons": null,
+                                "discount": 15
+                            }
+                        ]
+                    },
+                    {
+                        "type": "child",
+                        "price": 100,
+                        "discounts": []
+                    }
+                ],
+                "duration": 180,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Swimwear", "Towel", "Sunscreen", "Camera" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "Not recommended for pregnant women or individuals with back problems" ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "features": {
+                    "adventure": 10,
+                    "nature": 8,
+                    "relaxing": 7,
+                    "food-and-beverage": 2,
+                    "cultural": 1,
+                    "historical": 9
+                },
+                "ranking": 5.0,
+                "start_time": "10:00",
+                "end_time": "18:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 9,
+                    "evening": 7
+                },    
+                "capacity": 8,
+                "participants": {
+                    "min": 2,
+                    "max": 8,
+                    "types": [
+                        "couple",
+                        "friends"
+                    ]
+                },
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-04T10:00:00",
+                        "occupied_until": "2021-08-04T14:00:00",
+                        "capacity_filled": 5
+                    },
+                    {
+                        "occupied_from": "2021-08-04T14:00:00",
+                        "occupied_until": "2021-08-04T18:00:00",
+                        "capacity_filled": 7
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "3-Hour Paddle Board or Kayak Tour to Coastal Caves",
+                "description": "Enjoy a 3 to 3.5-hour stand up paddle board or kayaking guided tour along the amazing Budva bay with beautiful coastal caves and get a view of the 2500-year-old Budva Old Town.",
+                "category": "outdoor activity",
+                "city": "Budva",
+                "address": "Budva",
+                "geolocation": {
+                    "lat": 42.283905,
+                    "lng": 18.840965
+                },
+                "included": [
+                    "SUP/Kayaking instructor and guide",
+                    "Single or double SUP/Kayak",
+                    "Life jacket",
+                    "Waterproof bags",
+                    "Snorkeling gear",
+                    "Photos and video"
+                ],
+                "excluded": [
+                    "Food and drinks",
+                    "Transportation to/from the starting point",
+                    "Gratuities"
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 70,
+                        "discounts": [
+                            {
+                                "min_persons": 3,
+                                "max_persons": 5,
+                                "discount": 10
+                            },
+                            {
+                                "min_persons": 5,
+                                "max_persons": null,
+                                "discount": 15
+                            }
+                        ]
+                    }
+                ],
+                "duration": 180,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Comfortable clothing", "Sunscreen", "Hat", "Water bottle", "Swimwear", "Towel" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "Suitable for beginners and experienced riders", "Weight limit: 220 lbs (100 kg) per rider", "Not recommended for pregnant women" ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "features": {
+                    "adventure": 10,
+                    "nature": 9,
+                    "relaxing": 8,
+                    "food-and-beverage": 1,
+                    "cultural": 1,
+                    "historical": 6
+                },
+                "ranking": 4.7,
+                "start_time": "09:00",
+                "end_time": "19:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 9,
+                    "evening": 8
+                },
+                "capacity": 6,
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                },
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-05T09:00:00",
+                        "occupied_until": "2021-08-05T12:30:00",
+                        "capacity_filled": 4
+                    },
+                    {
+                        "occupied_from": "2021-08-05T13:00:00",
+                        "occupied_until": "2021-08-05T16:30:00",
+                        "capacity_filled": 3
+                    },
+                    {
+                        "occupied_from": "2021-08-05T16:00:00",
+                        "occupied_until": "2021-08-05T19:30:00",
+                        "capacity_filled": 2
+                    }
+                ]
+            },            
+            {
+                "id": 6,
+                "name": "Paragliding Experience",
+                "description": "Experience one of the most exciting adventure sports and enjoy some spectacular views. Take part in a tandem flight paragliding experience at Budva or Petrovac.",
+                "category": "outdoor activity",
+                "city": "Budva",
+                "address": "Budva",
+                "geolocation": {
+                    "lat": 42.28193,
+                    "lng": 18.86591
+                },
+                "included": [
+                    "Paragliding experience",
+                    "Experienced guide",
+                    "All needed equipment"
+                ],
+                "excluded": [
+                    "Food and drinks",
+                    "Transportation to/from the starting point",
+                    "Gratuities"
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 10,
+                        "discounts": [
+                            {
+                                "min_persons": 3,
+                                "max_persons": 5,
+                                "discount": 10
+                            },
+                            {
+                                "min_persons": 5,
+                                "max_persons": null,
+                                "discount": 15
+                            }
+                        ]
+                    },
+                    {
+                        "type": "child",
+                        "price": 8,
+                        "discounts": []
+                    }
+                ],
+                "duration": 90,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Hiking boots", "Comfortable clothing", "Water bottle", "Snacks", "Sunscreen", "Hat" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "Moderate level of fitness required", "Not recommended for individuals with mobility issues or heart problems" ]
+                    },
+                    {
+                        "category":"Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "features": {
+                    "adventure": 10,
+                    "nature": 8,
+                    "relaxing": 6,
+                    "food-and-beverage": 1,
+                    "cultural": 1,
+                    "historical": 1
+                },
+                "ranking": 4.6,
+                "start_time": "08:00",
+                "end_time": "17:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 8,
+                    "evening": 7
+                },
+                "capacity": 10,
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                },
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-06T08:00:00",
+                        "occupied_until": "2021-08-06T12:00:00",
+                        "capacity_filled": 6
+                    },
+                    {
+                        "occupied_from": "2021-08-06T12:00:00",
+                        "occupied_until": "2021-08-06T16:00:00",
+                        "capacity_filled": 8
+                    },
+                    {
+                        "occupied_from": "2021-08-06T15:00:00",
+                        "occupied_until": "2021-08-06T19:00:00",
+                        "capacity_filled": 4
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "Bay of Kotor and Blue Cave Speedboat Tour",
+                "description": "Explore the beauty of the Montenegrin coast on a speedboat tour. Discover the Bay of Kotor and swim in the Blue Cave, followed by a visit to Our Lady of the Rocks island.",
+                "category": "boat crousing",
+                "city": "Kotor",
+                "address": "Kotor",
+                "geolocation": {
+                    "lat": 42.424915,
+                    "lng": 18.768614
+                },
+                "included": [
+                    "Fuel",
+                    "Free Wi-Fi onboard",
+                    "Bottled water",
+                    "Snorkeling equipment",
+                    "Rain coats"
+                ],
+                "excluded": [
+                    "Gratuities (optional)",
+                    "Hotel pickup and drop-off"
+                ],
+                "duration": 180,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Comfortable shoes", "Water", "Sunscreen", "Camera" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "This tour involves walking on uneven surfaces and climbing steps, so it may not be suitable for individuals with mobility issues. The tour will operate rain or shine, so please dress accordingly." ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 4.5,
+                "start_time": "10:00",
+                "end_time": "18:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 9,
+                    "evening": 6
+                },
+                "capacity": 15,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-10T10:00:00",
+                        "occupied_until": "2021-08-10T12:00:00",
+                        "capacity_filled": 10
+                    },
+                    {
+                        "occupied_from": "2021-08-10T14:00:00",
+                        "occupied_until": "2021-08-10T16:00:00",
+                        "capacity_filled": 12
+                    },
+                    {
+                        "occupied_from": "2021-08-10T16:00:00",
+                        "occupied_until": "2021-08-10T18:00:00",
+                        "capacity_filled": 7
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 15,
+                        "discounts": [
+                            {
+                                "min_persons": 3,
+                                "max_persons": 5,
+                                "discount": 10
+                            },
+                            {
+                                "min_persons": 5,
+                                "max_persons": null,
+                                "discount": 15
+                            }
+                        ]
+                    }
+                ],
+                "features": {
+                    "adventure": 10,
+                    "nature": 10,
+                    "relaxing": 9,
+                    "food-and-beverage": 2,
+                    "cultural": 6,
+                    "historical": 7
+                },
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                }
+            },            
+            {
+                "id": 8,
+                "name": "Scenic Panoramic Flight",
+                "description": "Experience the diverse Montenegrin scenery from a unique perspective. Take a thrilling flight from Podgorica and admire the sights of vineyards, Skadar Lake, and the towns of Virpazar and Vranjina.",
+                "category": "outdoor activity",
+                "city": "Podgorica",
+                "address": "Podgorica",
+                "geolocation": {
+                    "lat": 42.428032,
+                    "lng": 19.262789
+                },
+                "included": [
+                    "Passangers taxes",
+                    "Instructor/pilot",
+                    "Flight 20 minutes"
+                ],
+                "excluded": [
+                    "Lunch",
+                    "Gratuities (optional)",
+                    "Hotel pickup and drop-off"
+                ],
+                "duration": 20,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Comfortable shoes", "Water", "Sunscreen", "Camera", "Warm clothing (for visiting the mausoleum)" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "This tour involves walking on uneven surfaces and climbing steps, so it may not be suitable for individuals with mobility issues. The tour will operate rain or shine, so please dress accordingly." ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 4.0,
+                "start_time": "09:00",
+                "end_time": "17:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 10,
+                    "evening": 10
+                },
+                "capacity": 12,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-12T09:00:00",
+                        "occupied_until": "2021-08-12T12:00:00",
+                        "capacity_filled": 8
+                    },
+                    {
+                        "occupied_from": "2021-08-12T12:00:00",
+                        "occupied_until": "2021-08-12T15:00:00",
+                        "capacity_filled": 4
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 4,
+                        "discounts": [
+                            {
+                                "min_persons": 3,
+                                "max_persons": 5,
+                                "discount": 10
+                            },
+                            {
+                                "min_persons": 5,
+                                "max_persons": null,
+                                "discount": 15
+                            }
+                        ]
+                    },
+                    {
+                        "type": "child",
+                        "price": 2,
+                        "discounts": []
+                    }
+                ],
+                "features": {
+                    "adventure": 10,
+                    "nature": 10,
+                    "relaxing": 8,
+                    "food-and-beverage": 1,
+                    "cultural": 1,
+                    "historical": 1
+                },
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                }
+            },
+            {
+                "id": 9,
+                "name": "Kotor: 2.5-Hour Kayak Tour",
+                "description": "Experience the Bay of Kotor from a unique perspective, get away from the crowds and head into a fun sea adventure. Explore the coastline around Kotor, the nearby fishing villages and beaches on a guided kayak tour. No experience is required.",
+                "category": "outdoor activity",
+                "city": "Kotor",
+                "address": "Kotor",
+                "geolocation": {
+                    "lat": 42.435291,
+                    "lng": 18.756811
+                },
+                "included": [
+                    "Top-of-the-line kayak and paddles",
+                    "Knowledgeable English-speaking guide",
+                    "Large waterproof barrels (for clothes, personal belongings, bags)",
+                    "Life jacket (children and adult sizes)",
+                    "Insurance"
+                ],
+                "excluded": [
+                    "Gratuities (optional)",
+                    "Hotel pickup and drop-off",
+                    "Personal expenses"
+                ],
+                "duration": 180,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Swimwear", "Towel", "Sunscreen", "Water shoes", "Change of clothes" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "Participants must be at least 7 years old and in good physical condition. The rafting trip is subject to weather conditions and water levels; in case of cancellation due to unsafe conditions, an alternative activity or full refund will be offered." ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 4.7,
+                "start_time": "10:00",
+                "end_time": "20:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 8,
+                    "evening": 10
+                },
+                "capacity": 20,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-15T10:00:00",
+                        "occupied_until": "2021-08-15T16:00:00",
+                        "capacity_filled": 15
+                    },    
+                    {
+                        "occupied_from": "2021-08-15T14:00:00",
+                        "occupied_until": "2021-08-15T20:00:00",
+                        "capacity_filled": 5
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 120,
+                        "discounts": [
+                            {
+                                "min_persons": 3,
+                                "max_persons": 5,
+                                "discount": 10
+                            },
+                            {
+                                "min_persons": 5,
+                                "max_persons": null,
+                                "discount": 15
+                            }
+                        ]
+                    }
+                ],
+                "features": {
+                    "adventure": 10,
+                    "nature": 8,
+                    "relaxing": 7,
+                    "food-and-beverage": 1,
+                    "cultural": 9,
+                    "historical": 1
+                },
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "friends"
+                    ]
+                }
+            },
+            {
+                "id": 10,
+                "name": "Explore Kotor with Your Family - Walking Tour",
+                "description": "Together with your family, discover the rich history and beauty of Kotor on a 2-hour walking tour!.",
+                "category": "heritage",
+                "city": "Kotor",
+                "address": "Kotor",
+                "geolocation": {
+                    "lat": 42.424713,
+                    "lng": 18.769745
+                },
+                "included": [
+                    "2-hour guided walking tour",
+                    "Expert local guide",
+                    "Entrance fees to Budva Old Town and Sveti Stefan viewpoint"
+                ],
+                "excluded": [
+                    "Gratuities (optional)",
+                    "Hotel pickup and drop-off",
+                    "Food and beverages"
+                ],
+                "duration": 120,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Comfortable shoes", "Water", "Sunscreen", "Camera" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "This tour involves walking on uneven surfaces and climbing steps, so it may not be suitable for individuals with mobility issues. The tour will operate rain or shine, so please dress accordingly." ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 4.6,
+                "start_time": "18:00",
+                "end_time": "22:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 10,
+                    "evening": 10
+                },
+                "capacity": 15,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-18T18:00:00",
+                        "occupied_until": "2021-08-18T20:00:00",
+                        "capacity_filled": 12
+                    },
+                    {
+                        "occupied_from": "2021-08-18T19:30:00",
+                        "occupied_until": "2021-08-18T21:30:00",
+                        "capacity_filled": 5
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 15,
+                        "discounts": [
+                            {
+                                "min_persons": 3,
+                                "max_persons": 5,
+                                "discount": 10
+                            },
+                            {
+                                "min_persons": 5,
+                                "max_persons": null,
+                                "discount": 15
+                            }
+                        ]
+                    },
+                    {
+                        "type": "child",
+                        "price": 10,
+                        "discounts": []
+                    }
+                ],
+                "features": {
+                    "adventure": 7,
+                    "nature": 6,
+                    "relaxing": 8,
+                    "food-and-beverage": 1,
+                    "cultural": 10,
+                    "historical": 10
+                },
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                }
+            },
+            {
+                "id": 11,
+                "name": "Durmitor National Park hiking tour - 3 lakes",
+                "description": "Visitors, nature lover and hikers, if you are looking for something more than Black lake to see, during the visit of NP Durmitor, and not looking for some climbing and too long hiking distance. Our offer may be the perfect choice for you",
+                "category": "outdoor activity",
+                "city": "Žabljak",
+                "address": "Žabljak",
+                "geolocation": {
+                    "lat": 43.15508,
+                    "lng": 19.120619
+                },
+                "included": [
+                    "Local guide"
+                ],
+                "excluded": [
+                    "Gratuities (optional)",
+                    "Hotel pickup and drop-off",
+                    "Food and beverages"
+                ],
+                "duration": 300,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Swimwear", "Towel", "Sunscreen", "Water shoes", "Change of clothes" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "Participants must be at least 7 years old and in good physical condition. The kayaking and snorkeling tour is subject to weather conditions; in case of cancellation due to unsafe conditions, an alternative activity or full refund will be offered." ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 4.9,
+                "start_time": "09:00",
+                "end_time": "19:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 10,
+                    "evening": 8
+                },
+                "capacity": 15,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-21T09:00:00",
+                        "occupied_until": "2021-08-21T13:00:00",
+                        "capacity_filled": 10
+                    },
+                    {
+                        "occupied_from": "2021-08-21T13:00:00",
+                        "occupied_until": "2021-08-21T17:00:00",
+                        "capacity_filled": 6
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 70,
+                        "discounts": [
+                            {
+                                "min_persons": 3,
+                                "max_persons": 5,
+                                "discount": 10
+                            },
+                            {
+                                "min_persons": 5,
+                                "max_persons": null,
+                                "discount": 15
+                            }
+                        ]
+                    },
+                    {
+                        "type": "child",
+                        "price": 10,
+                        "discounts": []
+                    }
+                ],
+                "features": {
+                    "adventure": 10,
+                    "nature": 10,
+                    "relaxing": 10,
+                    "food-and-beverage": 1,
+                    "cultural": 1,
+                    "historical": 5
+                },
+                "participants": {
+                    "min": 3,
+                    "max": 8,
+                    "types": [
+                        "family",
+                        "friends"
+                    ]
+                }
+            },
+            {
+                "id": 12,
+                "name": "Tara River Rafting tour with transportation from Zabljak town",
+                "description": "White water Tara River rafting tour from Zabljak town(possible to arrange the transportation from another cities for additional fees) and optional Zip line over the Tara River canyon by the bridge of Djurdjevica Tara. Experience for memories. Transportation form Zabljak, rafting equipment, instructor, lunch in the camp included in the price. Zip line and drink are not included in the price.",
+                "category": "outdoor activity",
+                "city": "Žabljak",
+                "address": "Žabljak",
+                "geolocation": {
+                    "lat": 43.153188,
+                    "lng": 19.126566
+                },
+                "included": [
+                    "Profesional instructor", 
+                    "Lunch",
+                    "Rafting equipment", 
+                    "Entry/Admission - Tara River Canyon"
+                ],
+                "excluded": [
+                    "Gratuities (optional)",
+                    "Hotel pickup and drop-off"
+                ],
+                "duration": 300,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Swimwear", "Towel", "Sunscreen", "Sunglasses", "Hat" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "The yacht tour is subject to weather conditions; in case of cancellation due to unsafe conditions, an alternative activity or full refund will be offered." ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 4.8,
+                "start_time": "9:00",
+                "end_time": "22:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 10,
+                    "evening": 8
+                },
+                "capacity": 12,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-15T10:00:00",
+                        "occupied_until": "2021-08-15T18:00:00",
+                        "capacity_filled": 6
+                    },
+                    {
+                        "occupied_from": "2021-08-15T14:00:00",
+                        "occupied_until": "2021-08-15T22:00:00",
+                        "capacity_filled": 5
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 210,
+                        "discounts": [
+                            {
+                                "min_persons": 3,
+                                "max_persons": 5,
+                                "discount": 10
+                            },
+                            {
+                                "min_persons": 5,
+                                "max_persons": null,
+                                "discount": 15
+                            }
+                        ]
+                    },
+                    {
+                        "type": "child",
+                        "price": 180,
+                        "discounts": []
+                    }
+                ],
+                "features": {
+                    "adventure": 10,
+                    "nature": 10,
+                    "relaxing": 7,
+                    "food-and-beverage": 10,
+                    "cultural": 1,
+                    "historical": 1
+                },
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                }
+            },
+            {
+                "id": 13,
+                "name": "Vinarija Kopitovic",
+                "description": "Kopitovic family settled in the village of Donji Brceli in Crmnica in the 15th century. We have a long history of grapevine cultivation, especially types like Vranac and Kratosija. Vineyards are situated in ideal altitude above the sea level exposed to the sun during many days of the year. Old cellar is part of our winery and is over 300 years old. Also we built new degustation room in authentic style.",
+                "category": "wine tasting",
+                "city": "Bar",
+                "address": "Bar",
+                "geolocation": {
+                    "lat": 42.249764,
+                    "lng": 19.009937
+                },
+                "included": [
+                    "Experienced instructor",
+                    "Food and beverages"
+                ],
+                "excluded": [
+                    "Gratuities (optional)",
+                    "Hotel pickup and drop-off",
+                    "Food and beverages"
+                ],
+                "duration": 60,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Comfortable clothing", "Closed-toe shoes" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "Minimum age for this activity is 12 years old", "Participants must weigh between 30 and 120 kg", "This activity is not recommended for pregnant women or individuals with heart or back problems" ]
+                    },
+                    {
+                    "category": "Accessibility",
+                    "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 5.0,
+                "start_time": "09:00",
+                "end_time": "18:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 10,
+                    "evening": 10
+                },
+                "capacity": 8,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-10T09:00:00",
+                        "occupied_until": "2021-08-10T10:00:00",
+                        "capacity_filled": 2
+                    },
+                    {
+                        "occupied_from": "2021-08-10T11:00:00",
+                        "occupied_until": "2021-08-10T12:00:00",
+                        "capacity_filled": 1
+                    },
+                    {
+                        "occupied_from":"2021-08-10T13:00:00",
+                        "occupied_until": "2021-08-10T14:00:00",
+                        "capacity_filled": 1
+                    },
+                    {
+                        "occupied_from":"2021-08-10T15:00:00",
+                        "occupied_until": "2021-08-10T16:00:00",
+                        "capacity_filled": 2
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 25,
+                        "discounts": [
+                        ]
+                    }
+                ],
+                "features": {
+                    "adventure": 5,
+                    "nature": 9,
+                    "relaxing": 9,
+                    "food-and-beverage": 10,
+                    "cultural": 1,
+                    "historical": 5
+                },
+                "participants": {
+                    "min": 1,
+                    "max": 2,
+                    "types": [
+                        "single", 
+                        "couple"
+                    ]
+                }
+            },
+            {
+                "id": 14,
+                "name": "Museum of King Nikola",
+                "description": "The Museum of King Nikola, a historic treasure trove, showcases the life and reign of Montenegro's last monarch, offering a unique journey through time and history.",
+                "category": "heritage",
+                "city": "Cetinje",
+                "address": "Cetinje",
+                "geolocation": {
+                    "lat": 42.387363,
+                    "lng": 18.924413
+                },
+                "included": [
+                    "Guided tour",
+                    "Entry to the Mausoleum"
+                ],
+                "excluded": [
+                    "Gratuities (optional)",
+                    "Hotel pickup and drop-off",
+                    "Food and beverages"
+                ],
+                "duration": 120,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Hiking shoes", "Comfortable clothing", "Water", "Snacks", "Sunscreen", "Hat" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "This tour is suitable for participants with a moderate level of fitness", "The tour will take place rain or shine, so please dress accordingly" ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 4.6,
+                "start_time": "08:00",
+                "end_time": "15:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 10,
+                    "evening": 6
+                },
+                "capacity": 15,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-20T08:00:00",
+                        "occupied_until": "2021-08-20T12:00:00",
+                        "capacity_filled": 10
+                    },
+                    {
+                        "occupied_from": "2021-08-20T10:00:00",
+                        "occupied_until": "2021-08-20T14:00:00",
+                        "capacity_filled": 5
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 12,
+                        "discounts": [
+                            {
+                                "min_persons": 3,
+                                "max_persons": 5,
+                                "discount": 10
+                            },
+                            {
+                                "min_persons": 5,
+                                "max_persons": null,
+                                "discount": 15
+                            }
+                        ]
+                    },
+                    {
+                        "type": "child",
+                        "price": 10,
+                        "discounts": []
+                    }
+                ],
+                "features": {
+                    "adventure": 2,
+                    "nature": 3,
+                    "relaxing": 4,
+                    "food-and-beverage": 1,
+                    "cultural": 7,
+                    "historical": 10
+                },
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                }
+            },
+            {
+                "id": 15,
+                "name": "Njegos Mausoleum",
+                "description": "Exactly 461 stairs lead to Jezerski Vrh, which is located at an altitude of 1660 m above sea level, where the Mausoleum dedicated to Petar II Petrovic Njegos was opened in 1974, making it the mausoleum at the highest altitude in the world at the time. The location of today's Mausoleum housed a humble chapel which Njegos constructed in 1845 to be his eternal resting place.",
+                "category": "heritage",
+                "city": "Cetinje",
+                "address": "Cetinje",
+                "geolocation": {
+                    "lat": 42.39963,
+                    "lng": 18.8375
+                },
+                "included": [
+                    "Professional guide",
+                    "Traditional Montenegrin lunch"
+                ],
+                "excluded": [
+                    "Gratuities (optional)",
+                    "Hotel pickup and drop-off",
+                    "Personal expenses"
+                ],
+                "duration": 180,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Swimwear", "Towel", "Sunscreen", "Change of clothes" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "Minimum age for this activity is 12 years old", "Participants must know how to swim", "This activity is not recommended for pregnant women or individuals with heart or back problems" ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 4.9,
+                "start_time": "09:00",
+                "end_time": "17:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 10,
+                    "evening": 10
+                },
+                "capacity": 20,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-25T09:00:00",
+                        "occupied_until": "2021-08-25T15:00:00",
+                        "capacity_filled": 12
+                    },
+                    {
+                        "occupied_from": "2021-08-25T11:00:00",
+                        "occupied_until": "2021-08-25T17:00:00",
+                        "capacity_filled": 8
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 60,
+                        "discounts": [
+                            {
+                                "min_persons": 3,
+                                "max_persons": 5,
+                                "discount": 10
+                            },
+                            {
+                                "min_persons": 5,
+                                "max_persons": null,
+                                "discount": 15
+                            }
+                        ]
+                    }
+                ],
+                "features": {
+                    "adventure": 4,
+                    "nature": 8,
+                    "relaxing": 8,
+                    "food-and-beverage": 1,
+                    "cultural": 7,
+                    "historical": 10
+                },
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                }
+            },
+            {
+                "id": 16,
+                "name": "Art Museum of Montenegro",
+                "description": "Explore the rich artistic heritage of Montenegro at its premier art museum, showcasing both traditional and contemporary works.",
+                "category": "heritage",
+                "city": "Cetinje",
+                "address": "Cetinje",
+                "geolocation": {
+                    "lat": 42.38925,
+                    "lng": 18.92292
+                },
+                "included": [
+                    "Experienced guide"
+                ],
+                "excluded": [
+                    "Gratuities (optional)",
+                    "Hotel pickup and drop-off",
+                    "Food and beverages"
+                ],
+                "duration": 120,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Comfortable clothing", "Closed-toe shoes", "Sunscreen", "Hat" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "Minimum age for this activity is 8 years old", "Maximum weight for participants is 100 kg", "This activity is not recommended for pregnant women or individuals with heart or back problems" ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 4.5,
+                "start_time": "09:00",
+                "end_time": "17:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 10,
+                    "evening": 9
+                },
+                "capacity": 10,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-30T09:00:00",
+                        "occupied_until": "2021-08-30T11:00:00",
+                        "capacity_filled": 4
+                    },
+                    {
+                        "occupied_from": "2021-08-30T11:00:00",
+                        "occupied_until": "2021-08-30T13:00:00",
+                        "capacity_filled": 6
+                    },
+                    {
+                        "occupied_from": "2021-08-30T13:00:00",
+                        "occupied_until": "2021-08-30T15:00:00",
+                        "capacity_filled": 3
+                    },
+                    {
+                        "occupied_from": "2021-08-30T15:00:00",
+                        "occupied_until": "2021-08-30T17:00:00",
+                        "capacity_filled": 7
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 35,
+                        "discounts": [
+                            {
+                                "min_persons": 3,
+                                "max_persons": 5,
+                                "discount": 10
+                            },
+                            {
+                                "min_persons": 5,
+                                "max_persons": null,
+                                "discount": 15
+                            }
+                        ]
+                    }
+                ],
+                "features": {
+                    "adventure": 5,
+                    "nature": 4,
+                    "relaxing": 3,
+                    "food-and-beverage": 1,
+                    "cultural": 8,
+                    "historical": 10
+                },
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                }
+            },
+            {
+                "id": 17,
+                "name": "Ski Centar Kolasin 1600",
+                "description": "Kolasin 1600: Breathtaking summer mountain adventures - hiking, biking, and scenic chairlift rides.",
+                "category": "outdoor activity",
+                "city": "Kolašin",
+                "address": "Kolašin",
+                "geolocation": {
+                    "lat": 42.85426,
+                    "lng": 19.70806
+                },
+                "included": [
+                    "Local guide"
+                ],
+                "excluded": [
+                    "Food and drinks",
+                    "Personal expenses",
+                    "Gratuities (optional)"
+                ],
+                "duration": 180,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Swimwear", "Towel", "Sunscreen", "Water", "Snacks" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "This tour is subject to weather conditions. In case of bad weather, the tour may be rescheduled or canceled with a full refund."]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 4.8,
+                "start_time": "10:00",
+                "end_time": "18:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 10,
+                    "evening": 8
+                },
+                "capacity": 12,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-15T10:00:00",
+                        "occupied_until": "2021-08-15T14:00:00",
+                        "capacity_filled": 5
+                    },
+                    {
+                        "occupied_from": "2021-08-15T14:00:00",
+                        "occupied_until": "2021-08-15T18:00:00",
+                        "capacity_filled": 9
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 15,
+                        "discounts": [
+                            {
+                                "min_persons": 3,
+                                "max_persons": 5,
+                                "discount": 10
+                            },
+                            {
+                                "min_persons": 5,
+                                "max_persons": null,
+                                "discount": 15
+                            }
+                        ]
+                    },
+                    {
+                        "type": "child",
+                        "price": 10,
+                        "discounts": []
+                    }
+                ],
+                "features": {
+                    "adventure": 8,
+                    "nature": 10,
+                    "relaxing": 8,
+                    "food-and-beverage": 1,
+                    "cultural": 1,
+                    "historical": 1
+                },
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                }
+            },            
+            {
+                "id": 18,
+                "name": "Adventurous Horse Riding",
+                "description": "You are ready to experience an incredible experience of chasing horses in the intact wilderness of Montenegro. Our adventure lasts for several hours to a few days it all depends how adventurous you are.",
+                "category": "outdoor activity",
+                "city": "Podgorica",
+                "address": "Podgorica",
+                "geolocation": {
+                    "lat": 42.317276,
+                    "lng": 19.164332
+                },
+                "included": [
+                    "Professional guide"
+                ],
+                "excluded": [
+                    "Entrance fees to attractions",
+                    "Food and drinks",
+                    "Gratuities (optional)"
+                ],
+                "duration": 180,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Comfortable walking shoes", "Water", "Sunscreen", "Camera" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "This tour operates rain or shine, so please dress appropriately for the weather" ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible due to the uneven terrain and stairs in the Old Town" ]
+                    }
+                ],
+                "ranking": 4.7,
+                "start_time": "10:00",
+                "end_time": "20:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 6,
+                    "evening": 10
+                },
+                "capacity": 15,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-20T10:00:00",
+                        "occupied_until": "2021-08-20T12:00:00",
+                        "capacity_filled": 10
+                    },
+                    {
+                        "occupied_from": "2021-08-20T14:00:00",
+                        "occupied_until": "2021-08-20T16:00:00",
+                        "capacity_filled": 7
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 15,
+                        "discounts": [
+                            {
+                                "min_persons": 3,
+                                "max_persons": 5,
+                                "discount": 10
+                            },
+                            {
+                                "min_persons": 5,
+                                "max_persons": null,
+                                "discount": 15
+                            }
+                        ]
+                    },
+                    {
+                        "type": "child",
+                        "price": 10,
+                        "discounts": []
+                    }
+                ],
+                "features": {
+                    "adventure": 10,
+                    "nature": 10,
+                    "relaxing": 7,
+                    "food-and-beverage": 1,
+                    "cultural": 1,
+                    "historical": 1
+                },
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                }
+            },            
+            {
+                "id": 19,
+                "name": "Adventure Park",
+                "description": "Experience thrilling fun and outdoor activities at Ivanova Korita Adventure Park!.",
+                "category": "outdoor activity",
+                "city": "Cetinje",
+                "address": "Ivanova Korita",
+                "geolocation": {
+                    "lat": 42.376864,
+                    "lng": 18.840009
+                },
+                "included": [
+                    "Food and drinks",
+                    "Local guide"
+                ],
+                "excluded": [
+                    "Gratuities (optional)",
+                    "Personal expenses"
+                ],
+                "duration": 180,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Swimwear", "Towel", "Sunscreen", "Camera" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "This tour operates rain or shine, but may be canceled due to extreme weather conditions. In case of cancellation, you will be offered an alternative date or a full refund.", "The yacht has a capacity limit, so early booking is recommended" ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is wheelchair accessible, but please inform the tour operator in advance if you require assistance" ]
+                    }
+                ],
+                "ranking": 4.9,
+                "start_time": "10:00",
+                "end_time": "18:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 10,
+                    "evening": 10
+                },
+                "capacity": 20,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-25T10:00:00",
+                        "occupied_until": "2021-08-25T18:00:00",
+                        "capacity_filled": 12
+                    },
+                    {
+                        "occupied_from": "2021-08-25T11:00:00",
+                        "occupied_until": "2021-08-25T19:00:00",
+                        "capacity_filled": 8
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 170,
+                        "discounts": [
+                            {
+                                "min_persons": 3,
+                                "max_persons": 5,
+                                "discount": 10
+                            },
+                            {
+                                "min_persons": 5,
+                                "max_persons": null,
+                                "discount": 15
+                            }
+                        ]
+                    },
+                    {
+                        "type": "child",
+                        "price": 100,
+                        "discounts": []
+                    }
+                ],
+                "features": {
+                    "adventure": 10,
+                    "nature": 9,
+                    "relaxing": 7,
+                    "food-and-beverage": 1,
+                    "cultural": 1,
+                    "historical": 1
+                },
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                }
+            },                
+            {
+                "id": 20,
+                "name": "Ka'banya Kitesurf Beach",
+                "description": "Ka'banya kite center is a kitesurfing school and wake boarding station. This is a place where you can enjoy one of the Montenegro's most beautiful beaches and experience good quality kitesurfing. Ka'banya also includes a beach bar and a restaurant to satisfy all your needs. At evenings you can enjoy beautiful sunsets, camp fire and a taste of local barbecue and at night its party time! We have everything, come and see for your self.",
+                "category": "outdoor activity",
+                "city": "Ulcinj",
+                "address": "Velika plaža",
+                "geolocation": {
+                    "lat": 41.874483,
+                    "lng": 19.329159
+                },
+                "included": [
+                    "Guided tour",
+                    "Cheese and local delicacies"
+                ],
+                "excluded": [
+                    "Gratuities (optional)",
+                    "Personal expenses"
+                ],
+                "duration": 300,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Comfortable walking shoes", "Camera" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "Participants must be at least 18 years old to take part in wine tasting", "Please inform the tour provider of any dietary restrictions or allergies in advance" ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 4.6,
+                "start_time": "11:00",
+                "end_time": "20:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 10,
+                    "evening": 10
+                },
+                "capacity": 15,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-30T11:00:00",
+                        "occupied_until": "2021-08-30T13:30:00",
+                        "capacity_filled": 5
+                    },
+                    {
+                        "occupied_from": "2021-08-30T15:00:00",
+                        "occupied_until": "2021-08-30T17:30:00",
+                        "capacity_filled": 10
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 20,
+                        "discounts": [
+                            {
+                                "min_persons": 3,
+                                "max_persons": 5,
+                                "discount": 10
+                            },
+                            {
+                                "min_persons": 5,
+                                "max_persons": null,
+                                "discount": 15
+                            }
+                        ]
+                    },
+                    {
+                        "type": "child",
+                        "price": 16,
+                        "discounts": []
+                    }
+                ],
+                "features": {
+                    "adventure": 10,
+                    "nature": 9,
+                    "relaxing": 8,
+                    "food-and-beverage": 1,
+                    "cultural": 1,
+                    "historical": 1
+                },
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                }
+            },        
+            {
+                "id": 21,
+                "name": "Wine and food tasting in the traditional winery",
+                "description": "Discover the flavors of Montenegro as you explore a traditional winery that has been around for 14 generations on this tasting tour.",
+                "category": "wine tasting",
+                "city": "Bar",
+                "address": "Godinje",
+                "geolocation": {
+                    "lat": 42.21759,
+                    "lng": 19.1118
+                },
+                "included": [
+                    "3 glasses of different wines",
+                    "Bottled water"
+                ],
+                "excluded": [
+                    "Gratuities (optional)"
+                ],
+                "duration": 180,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Sturdy hiking shoes", "Sunscreen", "Hat", "Camera" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "This tour is subject to weather conditions; in case of cancellation due to bad weather, you will be offered an alternative date or a full refund", "The hiking difficulty is moderate; participants should be in good physical condition" ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 4.8,
+                "start_time": "09:00",
+                "end_time": "18:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 8,
+                    "evening": 10
+                },
+                "capacity": 12,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-10T09:00:00",
+                        "occupied_until": "2021-08-10T13:00:00",
+                        "capacity_filled": 8
+                    },
+                    {
+                        "occupied_from": "2021-08-10T14:00:00",
+                        "occupied_until": "2021-08-10T18:00:00",
+                        "capacity_filled": 4
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 18,
+                        "discounts": [
+                        ]
+                    }
+                ],
+                "features": {
+                    "adventure": 5,
+                    "nature": 1,
+                    "relaxing": 7,
+                    "food-and-beverage": 8,
+                    "cultural": 1,
+                    "historical": 1
+                },
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                }
+            },            
+            {
+                "id": 22,
+                "name": "Lady of the Rocks and Blue Cave - Kotor Boat Tour",
+                "description": "The Bay of Kotor—also called Boka—offers up islets, caves, and more. This boat tour lets you experience its highlights more easily and scenically than traveling by hire car or public transport. Prebook to secure your seat, and visit the Our Lady on the Rocks island church, a Soviet-era submarine base, and the Blue Grotto, to swim in its neon-blue waters. A choice of departures provides important flexibility.",
+                "category": "boat crousing",
+                "city": "Kotor",
+                "address": "Kotor",
+                "geolocation": {
+                    "lat": 42.426514,
+                    "lng": 18.768142
+                },
+                "included": [
+                    "All necessary equipment",
+                    "Local guide"
+                ],
+                "excluded": [
+                    "Transportation to/from the starting point",
+                    "Gratuities (optional)",
+                    "Personal expenses"
+                ],
+                "duration": 180,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Swimwear", "Towel", "Sunscreen", "Water shoes" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "This tour is suitable for all levels of experience, including beginners", "In case of cancellation due to bad weather, you will be offered an alternative date or a full refund" ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 4.7,
+                "start_time": "18:00",
+                "end_time": "21:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 10,
+                    "evening": 10
+                },
+                "capacity": 15,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-15T18:00:00",
+                        "occupied_until": "2021-08-15T21:00:00",
+                        "capacity_filled": 5
+                    },
+                    {
+                        "occupied_from": "2021-08-16T18:00:00",
+                        "occupied_until": "2021-08-16T21:00:00",
+                        "capacity_filled": 8
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 50,
+                        "discounts": [
+                        ]
+                    }
+                ],
+                "features": {
+                    "adventure": 8,
+                    "nature": 10,
+                    "relaxing": 8,
+                    "food-and-beverage": 2,
+                    "cultural": 1,
+                    "historical": 6
+                },
+                "participants": {
+                    "min": 2,
+                    "max": 8,
+                    "types": [
+                        "couple",
+                        "friends"
+                    ]
+                }
+            },
+            {
+                "id": 23,
+                "name": "Herceg Novi: Scuba Diving for Beginners in the Adriatic Sea",
+                "description": "Explore the underwater world of the Adriatic Sea on this scuba diving adventure for beginners in Herceg Novi. No experience is necessary, as you'll be guided by a certified instructor who will teach you the basics of scuba diving and ensure your safety throughout the experience. Discover colorful marine life, ancient shipwrecks, and vibrant coral reefs as you dive into the crystal-clear waters. This unforgettable underwater adventure is perfect for those looking to try something new and exciting.",
+                "category": "water sports",
+                "city": "Herceg Novi",
+                "address": "Herceg Novi Diving Center",
+                "geolocation": {
+                    "lat": 42.456594,
+                    "lng": 18.532745
+                },
+                "included": [
+                    "Scuba diving lesson for beginners",
+                    "All necessary diving equipment",
+                    "Certified diving instructor"
+                ],
+                "excluded": [
+                    "Transportation to/from the diving center",
+                    "Gratuities (optional)",
+                    "Photos and videos of the experience (available for purchase)"
+                ],
+                "duration": 180,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Swimwear", "Towel", "Sunscreen" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "Participants must be at least 10 years old", "Medical clearance is required for individuals with pre-existing medical conditions" ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 4.6,
+                "start_time": "09:00",
+                "end_time": "17:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 6,
+                    "evening": 10
+                },
+                "capacity": 6,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-20T09:00:00",
+                        "occupied_until": "2021-08-20T12:00:00",
+                        "capacity_filled": 3
+                    },
+                    {
+                        "occupied_from": "2021-08-20T13:00:00",
+                        "occupied_until": "2021-08-20T16:00:00",
+                        "capacity_filled": 2
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 120,
+                        "discounts": [
+                        ]
+                    }
+                ],
+                "features": {
+                    "adventure": 8,
+                    "nature": 10,
+                    "relaxing": 8,
+                    "food-and-beverage": 2,
+                    "cultural": 1,
+                    "historical": 6
+                },
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                }
+            },            
+            {
+                "id": 24,
+                "name": "Kotor Old Town Walking Tour",
+                "description": "Get to know the Old Town of Kotor on this walking tour. Learn about the walled city’s history, architecture, culture.",
+                "category": "outdoor activity",
+                "city": "Kotor",
+                "address": "Kotor",
+                "geolocation": {
+                    "lat": 42.425127,
+                    "lng": 18.769759
+                },
+                "included": [
+                    "Local guide"
+                ],
+                "excluded": [
+                    "Gratuities (optional)",
+                    "Personal expenses"
+                ],
+                "duration": 70,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Comfortable walking shoes", "Sunscreen", "Camera" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "This tour operates in all weather conditions; please dress appropriately", "Participants must be at least 18 years old to consume alcohol" ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 4.9,
+                "start_time": "10:00",
+                "end_time": "16:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 10,
+                    "evening": 10
+                },
+                "capacity": 15,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-25T10:00:00",
+                        "occupied_until": "2021-08-25T15:00:00",
+                        "capacity_filled": 4
+                    },
+                    {
+                        "occupied_from": "2021-08-26T10:00:00",
+                        "occupied_until": "2021-08-26T15:00:00",
+                        "capacity_filled": 8
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 45,
+                        "discounts": [
+                        ]
+                    }
+                ],
+                "features": {
+                    "adventure": 6,
+                    "nature": 3,
+                    "relaxing": 8,
+                    "food-and-beverage": 1,
+                    "cultural": 7,
+                    "historical": 10
+                },
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                }
+            },            
+            {
+                "id": 25,
+                "name": "Bay of Kotor: 2.5-Hour Kayak Tour",
+                "description": "Experience the Bay of Kotor from a unique perspective, get away from the crowds and head into a fun sea adventure. Explore the coastline around Kotor, the nearby fishing villages and beaches on a guided kayak tour.",
+                "category": "outdoor activity",
+                "city": "Kotor",
+                "address": "Kotor",
+                "geolocation": {
+                    "lat": 42.435187,
+                    "lng": 18.75678
+                },
+                "included": [
+                    "Experienced guide",
+                    "Kayak and paddle"
+                ],
+                "excluded": [
+                    "Transportation to/from the riding center",
+                    "Gratuities (optional)"
+                ],
+                "duration": 150,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Comfortable clothing", "Riding boots or sturdy shoes", "Sunscreen", "Hat", "Camera" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "This tour is suitable for all levels of experience, including beginners", "The maximum weight limit for riders is 220 lbs (100 kg)" ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 4.7,
+                "start_time": "09:00",
+                "end_time": "19:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 10,
+                    "evening": 10
+                },
+                "capacity": 10,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-30T09:00:00",
+                        "occupied_until": "2021-08-30T13:00:00",
+                        "capacity_filled": 5
+                    },
+                    {
+                        "occupied_from": "2021-08-30T14:00:00",
+                        "occupied_until": "2021-08-30T18:00:00",
+                        "capacity_filled": 3
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 60,
+                        "discounts": [
+                        ]
+                    }
+                ],
+                "features": {
+                    "adventure": 10,
+                    "nature": 9,
+                    "relaxing": 7,
+                    "food-and-beverage": 1,
+                    "cultural": 1,
+                    "historical": 1
+                },
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                }
+            },
+            {
+                "id": 26,
+                "name": "Kotor Boat Tour",
+                "description": "Discover the cultural and natural delights of Montenegro on a 2.5-hour sightseeing cruise from Kotor.",
+                "category": "boat crousing",
+                "city": "Kotor",
+                "address": "Kotor",
+                "geolocation": {
+                    "lat": 42.426502,
+                    "lng": 18.770512
+                },
+                "included": [
+                    "Life jacket",
+                    "Dry bag for personal belongings",
+                    "Snorkeling equipment"
+                ],
+                "excluded": [
+                    "Food and drinks",
+                    "Hotel pickup and drop-off"
+                ],
+                "duration": 150,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Swimwear", "Towel", "Sunscreen", "Water bottle", "Camera" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "This tour is suitable for all levels of experience, including beginners", "Participants should be able to swim" ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 4.8,
+                "start_time": "17:00",
+                "end_time": "19:30",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 10,
+                    "evening": 10
+                },
+                "capacity": 12,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-15T17:00:00",
+                        "occupied_until": "2021-08-15T19:30:00",
+                        "capacity_filled": 8
+                    },
+                    {
+                        "occupied_from": "2021-08-15T17:00:00",
+                        "occupied_until": "2021-08-15T19:30:00",
+                        "capacity_filled": 4
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 85,
+                        "discounts": [
+                        ]
+                    }
+                ],
+                "features": {
+                    "adventure": 8,
+                    "nature": 9,
+                    "relaxing": 6,
+                    "food-and-beverage": 1,
+                    "cultural": 3,
+                    "historical": 10
+                },
+                "participants": {
+                    "min": 2,
+                    "max": 8,
+                    "types": [
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                }
+            },
+            {
+                "id": 27,
+                "name": "Unique lunch experience with locals in high hills above Budva!",
+                "description": "Explore the area around Budva and have a local experience on this private tour. Depart from Budva in an air-conditioned vehicle and head into the hills to take in views of Budva from above. Visit Kosmac Fortress and Stanjevici Monastery and stop at a local familys home to eat a lunch made with fresh-grown ingredients.",
+                "category": "etno food and village experience",
+                "city": "Budva",
+                "address": "Budva",
+                "geolocation": {
+                    "lat": 42.28809,
+                    "lng": 18.84928
+                },
+                "included": [
+                    "Lunch",
+                    "Bottled water"
+                ],
+                "excluded": [
+                    "Food and drinks",
+                    "Entry fees to Our Lady of the Rocks museum"
+                ],
+                "duration": 240,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Swimwear", "Towel", "Sunscreen", "Camera", "Water" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "This tour is subject to weather conditions", "Children must be accompanied by an adult" ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 4.9,
+                "start_time": "09:00",
+                "end_time": "21:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 10,
+                    "evening": 10
+                },
+                "capacity": 10,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-12T09:00:00",
+                        "occupied_until": "2021-08-12T13:00:00",
+                        "capacity_filled": 6
+                    },
+                    {
+                        "occupied_from": "2021-08-12T14:00:00",
+                        "occupied_until": "2021-08-12T18:00:00",
+                        "capacity_filled": 4
+                    },
+                    {
+                        "occupied_from": "2021-08-12T17:00:00",
+                        "occupied_until": "2021-08-12T21:00:00",
+                        "capacity_filled": 2
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 210,
+                        "discounts": [
+                        ]
+                    }
+                ],
+                "features": {
+                    "adventure": 2,
+                    "nature": 10,
+                    "relaxing": 10,
+                    "food-and-beverage": 10,
+                    "cultural": 9,
+                    "historical": 2
+                },
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                }
+            },
+            {
+                "id": 28,
+                "name": "Home made wine, brandy and food tasting",
+                "description": "Our winery is located in Limljani, a village with 365 springs of natural clean water, full of vineyards and homemade ecological products, from where you can easily travel to the seaside, lake and mountains. In our gardens we have planted vegetables: onions, potato, paprika, tomato, carrots, blue tomato.. We offer you pleasant stay and relaxation, good fun and tasting of our homemade wines, liqueurs, juices and teas in our winery made in ethno style. Winery is situated 10m from the natural spring water, coming from mountain Sutorman. There is a table with seats where we serve food and drinks.",
+                "category": "etno food and village experience",
+                "city": "Bar",
+                "address": "Limljani",
+                "geolocation": {
+                    "lat": 42.19699,
+                    "lng": 19.906168
+                },
+                "included": [
+                    "Food and drinks"
+                ],
+                "excluded": [
+                    "Transportation to/from the meeting point",
+                    "Gratuities"
+                ],
+                "duration": 90,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Comfortable walking shoes", "Camera", "Water", "Hat" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "This tour operates rain or shine", "Not recommended for guests with limited mobility" ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 4.7,
+                "start_time": "10:00",
+                "end_time": "16:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 10,
+                    "evening": 10
+                },
+                "capacity": 15,
+                "occupancy": [
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 20,
+                        "discounts": [
+                        ]
+                    },
+                    {
+                        "type": "child",
+                        "price": 15,
+                        "discounts": []
+                    }
+                ],
+                "features": {
+                    "adventure": 4,
+                    "nature": 9,
+                    "relaxing": 10,
+                    "food-and-beverage": 8,
+                    "cultural": 10,
+                    "historical": 1
+                },
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                }
+            },
+            {
+                "id": 29,
+                "name": "Bike tour - Panoramic downhill from Njeguši trough Kotor serpentines",
+                "description": "The most amazing cycling tour in Montenegro offers unique view of Kotor. Tour begin by car transfer uphill trough serpentine road which is built in 19th century by Austrians. This road is 25km and it has 25 curves with stunning view on Kotor Bay and it takes around 45 minutes to our starting position at village Njegusi. It is settled bellow Lovcen mountain at 900 meters above sea level and there is born place of our greatest ruler Njegos the II. Taking a bikes and short ride trough the village allows you to understand how people here used to live time ago. Keep cycling for 2km light uphill brings us to the Krstac pass where you can try ZIPLINE 400 meters long. Later on at Horizont restaurant you would have a coffee break enjoying the most beautiful view ever. After break, starts downhill cycling for about 1.30h. Having fun and taking amazing photos from every curve with different perspective will make this journey unforgettable. This is regular road also used by car, so be careful.",
+                "category": "outdoor activity",
+                "city": "Kotor",
+                "address": "Kotor",
+                "geolocation": {
+                    "lat": 42.42457,
+                    "lng": 18.76973
+                },
+                "included": [
+                    "Guided vineyard and winery tour",
+                    "Wine tasting",
+                    "Food pairings",
+                    "Local guide"
+                ],
+                "excluded": [
+                    "Transportation to/from the vineyard",
+                    "Gratuities"
+                ],
+                "duration": 180,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Camera", "Comfortable clothing" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "You must be at least 18 years old to participate in the wine tasting", "Please inform the tour operator in advance of any dietary restrictions or allergies" ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 4.8,
+                "start_time": "11:00",
+                "end_time": "18:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 9,
+                    "evening": 10
+                },
+                "capacity": 12,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-22T11:00:00",
+                        "occupied_until": "2021-08-22T14:00:00",
+                        "capacity_filled": 8
+                    },
+                    {
+                        "occupied_from": "2021-08-22T14:00:00",
+                        "occupied_until": "2021-08-22T17:00:00",
+                        "capacity_filled": 5
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 15,
+                        "discounts": [
+                            {
+                                "min_persons": 3,
+                                "max_persons": 5,
+                                "discount": 10
+                            },
+                            {
+                                "min_persons": 5,
+                                "max_persons": null,
+                                "discount": 15
+                            }
+                        ]
+                    },
+                    {
+                        "type": "child",
+                        "price": 10,
+                        "discounts": []
+                    }
+                ],
+                "features": {
+                    "adventure": 10,
+                    "nature": 9,
+                    "relaxing": 8,
+                    "food-and-beverage": 8,
+                    "cultural": 1,
+                    "historical": 9
+                },
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                }
+            },
+            {
+                "id": 30,
+                "name": "1-Hour Guided Lipa Cave Adventure in Montenegro",
+                "description": "Explore the natural rock formations in Lipa Cave with ease on this group tour with a guide. Take a train ride to the entrance and descend into the cool underground chamber. Learn about Lipa Cave’s place in Montenegrin history from your guide. Admire the underground river and geological formations as you walk the length of the cave.",
+                "category": "heritage",
+                "city": "Cetinje",
+                "address": "Cetinje",
+                "geolocation": {
+                    "lat": 42.366822,
+                    "lng": 18.953215    
+                },
+                "included": [
+                    "Entrance",
+                    "Local guide"
+                ],
+                "excluded": [
+                    "Transportation to/from the meeting point",
+                    "Gratuities"
+                ],
+                "duration": 60,
+                "additional_info": [
+                    {
+                        "category": "What to bring",
+                        "items": [ "Comfortable walking shoes", "Sunscreen", "Water" ]
+                    },
+                    {
+                        "category": "Know before you go",
+                        "items": [ "The tour is conducted in English", "This tour is not recommended for people with mobility issues" ]
+                    },
+                    {
+                        "category": "Accessibility",
+                        "items": [ "This tour is not wheelchair accessible" ]
+                    }
+                ],
+                "ranking": 4.7,
+                "start_time": "10:00",
+                "end_time": "18:00",
+                "daytime": {
+                    "morning": 10,
+                    "afternoon": 10,
+                    "evening": 10
+                },
+                "capacity": 15,
+                "occupancy": [
+                    {
+                        "occupied_from": "2021-08-15T10:00:00",
+                        "occupied_until": "2021-08-15T12:00:00",
+                        "capacity_filled": 9
+                    },
+                    {
+                        "occupied_from": "2021-08-15T14:00:00",
+                        "occupied_until": "2021-08-15T16:00:00",
+                        "capacity_filled": 6
+                    },
+                    {
+                        "occupied_from":"2021-08-15T16:00:00",
+                        "occupied_until": "2021-08-15T18:00:00",
+                        "capacity_filled": 3
+                    }
+                ],
+                "pricing": [
+                    {
+                        "type": "adult",
+                        "price": 15,
+                        "discounts": [
+                            {
+                                "min_persons": 3,
+                                "max_persons": 5,
+                                "discount": 10
+                            },
+                            {
+                                "min_persons": 5,
+                                "max_persons": null,
+                                "discount": 15
+                            }
+                        ]
+                    },
+                    {
+                        "type": "child",
+                        "price": 10,
+                        "discounts": []
+                    }
+                ],
+                "features": {
+                    "adventure": 10,
+                    "nature": 9,
+                    "relaxing": 6,
+                    "food-and-beverage": 1,
+                    "cultural": 1,
+                    "historical": 9
+                },
+                "participants": {
+                    "min": 1,
+                    "max": 8,
+                    "types": [
+                        "single", 
+                        "couple",
+                        "family",
+                        "friends"
+                    ]
+                }
+            }
+        ]
+    },
+    "status": 200,
+    "message": "success"
+}

@@ -3,7 +3,6 @@ import Swiper from 'swiper';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { DataService } from '../data.service';
-
 @Component({
   selector: 'app-activities',
   templateUrl: './activities.component.html',
@@ -26,12 +25,10 @@ export class ActivitiesComponent implements OnInit {
       spaceBetween: 10,
       // Optional parameters
       direction: 'horizontal',
-
       // If we need pagination
       pagination: {
         el: '.swiper-pagination',
       },
-
       // Navigation arrows
       navigation: {
         nextEl: '.swiper-button-next',
@@ -46,7 +43,6 @@ export class ActivitiesComponent implements OnInit {
     })
 
   }
-
 
 
   onLoad(activity: any) {
