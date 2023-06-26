@@ -37,13 +37,7 @@ border-radius: 100px;
 
 
 
-.button-wrapper{
-  display: flex;
-  overflow-x: scroll;
-}
-::-webkit-scrollbar {
-  display: none;
-}
+
 
 .paragraph-container{
   display: flex;
@@ -91,12 +85,22 @@ color: #1F2933;
 }
 
 
+.button-wrapper{
+  display: flex;
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
 .btn-slider{
   border-radius: 20px;
   color: gray;
   font-size: 15px;
-  font-weight: 500;
-  height: 50px;
+  /* font-weight: 500; */
+  height: 44px;
+  width: 124px;
   padding: 14px 30px;
   text-align: center;
   white-space: nowrap;
@@ -110,8 +114,9 @@ color: #1F2933;
   border-radius: 20px;
   color: #fff;
   font-size: 15px;
-  font-weight: 500;
-  height: 50px;
+  /* font-weight: 500; */
+  height: 44px;
+  width: 124px;
   padding: 14px 30px;
   text-align: center;
   white-space: nowrap;

@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import Swiper from 'swiper';
 import { ActivitiesDataService } from '../activities-data.service';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-explore',
@@ -12,8 +13,10 @@ import { ActivitiesDataService } from '../activities-data.service';
 export class ExploreComponent implements OnInit {
   public swiper: any;
   toursId: number|any;
-  activities: any[] | any;
-  constructor(private http: HttpClient, private router: Router, private activitiesService: ActivitiesDataService) {}
+  activitiesData: Activity[] = [];
+  constructor(private http: HttpClient,
+                     private router: Router,
+                     private service : DataService) {}
 
   public ngOnInit() {
     this.swiper = new Swiper('.swiper', {
@@ -34,22 +37,44 @@ export class ExploreComponent implements OnInit {
       },
     });
 
-  //   console.log(this.swiper);
-  //   this.activities = this.activitiesService.getActivities();
-  // }
 
 
-// onCreateTour(){
-//   this.router.navigate(['/create'])
-// }
-// divClicked(toursId: number) {
+    console.log(this.swiper);
+  this.service.getActivitiesData().subscribe((response) => {
+    console.log(response)
+    this.activitiesData = response.data.activities
+    console.log(this.activitiesData)
+  })
+
+
+
+}
+onCreateTour(){
+  this.router.navigate(['/create'])
+}
+// divClicked(tour) {
 //   console.log(toursId);
 //   this.router.navigate(['/single'], {queryParams: {id:toursId}});
 // }
-// }
 
 
 }
-onCreateTour(){}
-divClicked(){}
+interface Activity {
+  id: number;
+  name: string;
+  description: string;
+  category: string;
+  city: string;
+  address: string;
+  pricing: [
+    {
+      type: string;
+      price: number;
+      discount: any[];
+    }
+  ];
+  price: number;
+  ranking: number;
 }
+
+

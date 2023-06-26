@@ -21,7 +21,7 @@
 
 
 <div class="btn-container">
-  <button class="create-btn">Create</button>
+  <button (click)="onCreateTour()" class="create-btn">Create</button>
 </div>
 
 </div>
@@ -52,21 +52,22 @@
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
     <!-- Slides -->
-    <div class="swiper-slide" *ngFor="let tour of activities" (click)="divClicked()">
+    <div class="swiper-slide" *ngFor="let activity of activitiesData">
       <div class="card">
         <img
           class="card-img-top"
-          [src]="tour.slika"
-          alt="Card image cap"
+          src= "../../assets/Thumbnailslika.png"
+          alt="alt"
         />
         <div class="card-body">
           <p class="card-text"  style="margin-right: 50px; display: inline;" >
-            {{tour.tip}}  |
+            {{activity.category}}  |
           </p>
-          <p class="card-text" style="display: inline;"  > <i class="bi bi-star-fill"></i>{{tour.ocjena}}</p>
-          <p class="card-text"><b>{{tour.opis}}</b></p>
-          <p class="card-text" style="display: inline; margin-right: 70px;"><i class="bi bi-pin-fill"></i>{{tour.lokacija}}</p>
-          <p class="card-text" style="display: inline; ">{{tour.cijena}}</p>
+          <p class="card-text" style="display: inline;"  > <i class="bi bi-star-fill"></i> {{ activity.ranking }}</p>
+          <p class="card-text"><b>{{activity.name}}</b></p>
+
+           <p class="card-text" style="display: inline; margin-right: 80px;"><i class="bi bi-pin-fill"></i>{{activity.city}}</p>
+          <p class="card-text" style="display: inline;">{{activity.pricing[0].price}} $ / Person</p>
         </div>
       </div>
     </div>

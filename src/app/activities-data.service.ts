@@ -19,6 +19,7 @@ export class ActivitiesDataService implements OnInit {
               (error: any) => {
              console.error("Doslo je do greske:", error)
              })
+
   }
 
   //   const url = 'C:\Users\Branka Sosic\Desktop\zajednicki\demoapp\src\app\activities-modified.json';
