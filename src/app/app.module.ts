@@ -29,6 +29,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule} from '@angular/material/menu';
 import { FilterComponent } from './filter/filter.component';
 import { CommonModule } from '@angular/common';
+import { MatIconModule } from '@angular/material/icon';
 
 
 
@@ -51,6 +52,7 @@ import { CommonModule } from '@angular/common';
 
   ],
   imports: [
+    MatIconModule,
     HttpClientModule,
     FormsModule,
     BrowserModule,
